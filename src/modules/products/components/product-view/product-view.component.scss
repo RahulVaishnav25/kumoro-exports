@@ -25,6 +25,11 @@
   text-align: center;
 }
 
+.btn {
+  margin:1em;
+  margin-left: 2.3em;
+}
+
 .container:hover .image {
   opacity: 0.3;
 }
@@ -38,4 +43,8 @@
   color: black;
   font-size: 16px;
 //   padding: 16px 32px;
+}
+
+.title {
+  text-align: center;
 }
