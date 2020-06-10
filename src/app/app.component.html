@@ -1,1 +1,33 @@
+<div class="row">
+    
+    <div class="column" *ngFor="let item of items">
+        <div class="card">
+            <div class="card-image">
+                <a href="/"><img src="{{item.image}}" alt="" style="width:100%"></a>
+            </div>
+            <div class="card-content">
+                <p>{{item.title}}</p>
+            </div>
+            <div class="card-action">
+                 <a href="/">View listing: </a>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+      <div class="card">
+          <div class="card-image">
+              <a href="/"><img src="../assets/image/71vTrBF1l1L._SL1258_.jpg" alt="" style="width:100%"></a>
+          </div>
+          <div class="card-content">
+              <p>DHOOP BATTI HOLDER</p>
+          </div>
+          <div class="card-action">
+               <a href="/">View listing: </a>
+          </div>
+      </div>
+    </div>
+    
+  
+</div>
+
 <router-outlet></router-outlet>

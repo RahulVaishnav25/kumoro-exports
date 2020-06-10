@@ -21,4 +21,6 @@ export class AppComponent {
                 this.titleService.setTitle(snapshot.data.title || 'ERM');
             });
     }
+
+    items=[{image:"../assets/image/71UgC3RX5JL._SL1500_.jpg",title:"Sample title",description:"sample desc"}]
 }
