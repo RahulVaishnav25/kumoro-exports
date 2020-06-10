@@ -39,9 +39,12 @@
         </div>
     </div>
 </sb-layout-dashboard> -->
-
-<sb-product-view *ngFor="let product of products" [imageSource]="product.imageSrc" [description]="product.details"
-    [title]="product.title">
-    
-</sb-product-view>
-
+<div class="container">
+    <div class="row text-center">
+        <div *ngFor="let product of products" class="col text-center">
+            <sb-product-view [imageSource]="product.imageSrc"
+                [description]="product.details" [title]="product.title">
+            </sb-product-view>
+        </div>
+    </div>
+</div>
