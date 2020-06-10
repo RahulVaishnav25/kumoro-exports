@@ -5,7 +5,7 @@ const routes: Routes = [
     {
         path: '',
         pathMatch: 'full',
-        redirectTo: '/dashboard',
+        redirectTo: '/products',
     },
     {
         path: 'events',
@@ -16,6 +16,11 @@ const routes: Routes = [
         path: 'charts',
         loadChildren: () =>
             import('modules/charts/charts-routing.module').then(m => m.ChartsRoutingModule),
+    },
+    {
+        path: 'products',
+        loadChildren: () =>
+            import('modules/products/products-routing.module').then(m => m.ProductsRoutingModule),
     },
     {
         path: 'dashboard',
