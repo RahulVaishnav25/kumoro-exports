@@ -18,6 +18,11 @@ const routes: Routes = [
             import('modules/charts/charts-routing.module').then(m => m.ChartsRoutingModule),
     },
     {
+        path: 'carts',
+        loadChildren: () =>
+            import('modules/cart/cart-routing.module').then(m => m.CartsRoutingModule),
+    },
+    {
         path: 'products',
         loadChildren: () =>
             import('modules/products/products-routing.module').then(m => m.ProductsRoutingModule),

@@ -1,6 +1,15 @@
 <span [ngClass]='{"sb-nav-fixed": !static}'>
     <sb-top-nav></sb-top-nav>
-    <div id="layoutSidenav">
+    <div id="layoutSidenav_content">
+        <main>
+            <div class="container-fluid">
+                <ng-content></ng-content>
+            </div>
+        </main>
+        <sb-footer></sb-footer>
+    </div>
+
+    <!-- <div *ngIf="false" id="layoutSidenav">
         <div id="layoutSidenav_nav">
             <sb-side-nav [sidenavStyle]="sidenavStyle" [sideNavItems]="sideNavItems"
                 [sideNavSections]="sideNavSections"></sb-side-nav>
@@ -13,5 +22,5 @@
             </main>
             <sb-footer></sb-footer>
         </div>
-    </div>
+    </div> -->
 </span>

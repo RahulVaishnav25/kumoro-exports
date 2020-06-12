@@ -6,6 +6,9 @@ import {
     OnInit,
     ViewChild,
     Input,
+    Injector,
+    Output,
+    EventEmitter,
 } from '@angular/core';
 
 @Component({
@@ -14,21 +17,21 @@ import {
     templateUrl: './product-view.component.html',
     styleUrls: ['product-view.component.scss'],
 })
-export class ProductViewComponent implements OnInit, AfterViewInit {
+export class ProductViewComponent implements OnInit {
     // imageSource = "assets/img/rahul.png";
     // description = "asdasdasd";
     // title = "tititititiititii";
 
-   @Input() imageSource;
-   @Input() description;
-   @Input() title;
+    @Input() productId;
+    @Input() imageSource;
+    @Input() description;
+    @Input() title;
+    @Output() onAddToCart: EventEmitter<any> = new EventEmitter();
 
+    constructor() {}
 
-    constructor() {
-    }
-    ngAfterViewInit() { }
-
-    ngOnInit() {
-
+    ngOnInit() {    }
+    addToCart() {
+        this.onAddToCart.emit(null);
     }
 }

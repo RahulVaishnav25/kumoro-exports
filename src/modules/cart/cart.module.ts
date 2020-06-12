@@ -6,6 +6,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 /* Modules */
 import { AppCommonModule } from '@common/app-common.module';
+import { ProductsModule } from '@modules/products/products.module';
+
 import { NavigationModule } from '@modules/navigation/navigation.module';
 
 /* Components */
@@ -20,9 +22,6 @@ import * as chartsGuards from './guards';
 /* Services */
 // import * as chartsServices from './services';
 import { GroupService } from '../app-common/services/group.service';
-// import { ProductService } from '@common/services/products.service';
-import { CartService } from '@common/services/cart.service';
-// import { CartService } from '@modules/cart/services';
 
 @NgModule({
     imports: [
@@ -31,10 +30,10 @@ import { CartService } from '@common/services/cart.service';
         ReactiveFormsModule,
         FormsModule,
         AppCommonModule,
-        NavigationModule
+        NavigationModule, ProductsModule,
     ],
-    providers: [...chartsGuards.guards,CartService],
+    providers: [ ...chartsGuards.guards],
     declarations: [...chartsContainers.containers, ...chartsComponents.components],
     exports: [...chartsContainers.containers, ...chartsComponents.components],
 })
-export class ProductsModule { }
+export class CartModule { }

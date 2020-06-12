@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { SBRouteData } from '@modules/navigation/models';
 
 /* Module */
-import { ProductsModule } from './products.module';
+import { CartModule } from './cart.module';
 
 /* Containers */
 import * as chartsContainers from './containers';
@@ -17,7 +17,7 @@ export const ROUTES: Routes = [
     {
         path: '',
         canActivate: [],
-        component: chartsContainers.ProductsComponent,
+        component: chartsContainers.CartsComponent,
         data: {
             title: 'Charts - SB Admin Angular',
             breadcrumbs: [
@@ -35,7 +35,7 @@ export const ROUTES: Routes = [
 ];
 
 @NgModule({
-    imports: [ProductsModule, RouterModule.forChild(ROUTES)],
+    imports: [CartModule, RouterModule.forChild(ROUTES)],
     exports: [RouterModule],
 })
-export class ProductsRoutingModule {}
+export class CartsRoutingModule { }

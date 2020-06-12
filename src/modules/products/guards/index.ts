@@ -1,5 +1,5 @@
-import { ProductsGuard } from './products.guard';
+// import { ProductsGuard } from './products.guard';
 
-export const guards = [ProductsGuard];
+export const guards = [];
 
-export * from './products.guard';
+// export * from './products.guard';

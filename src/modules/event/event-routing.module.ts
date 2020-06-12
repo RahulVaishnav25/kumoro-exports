@@ -22,7 +22,7 @@ export const ROUTES: Routes = [
     },
     {
         path: 'create',
-        canActivate: [AuthGuard],
+        // canActivate: [AuthGuard],
         component: eventContainers.CreateEventComponent,
         data: {
             title: 'Create Event',
@@ -30,7 +30,7 @@ export const ROUTES: Routes = [
     },
     {
         path: 'create/:id',
-        canActivate: [AuthGuard],
+        // canActivate: [AuthGuard],
         component: eventContainers.CreateEventComponent,
         data: {
             title: 'Update Event',
@@ -55,7 +55,7 @@ export const ROUTES: Routes = [
 
     {
         path: 'view/:id',
-        canActivate: [AuthGuard],
+        // canActivate: [AuthGuard],
         component: eventContainers.ViewEventComponent,
         data: {
             title: 'View Event',
@@ -63,7 +63,7 @@ export const ROUTES: Routes = [
     },
     {
         path: 'viewGroup/:groupId',
-        canActivate: [AuthGuard],
+        // canActivate: [AuthGuard],
         component: eventContainers.ViewParticipantsComponent,
         data: {
             title: 'View Event',
@@ -71,7 +71,7 @@ export const ROUTES: Routes = [
     },
     {
         path: 'view-registrations/:id',
-        canActivate: [AuthGuard],
+        // canActivate: [AuthGuard],
         component: eventContainers.ViewEventComponent,
         data: {
             title: 'View Event',

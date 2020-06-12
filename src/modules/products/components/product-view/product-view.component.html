@@ -14,7 +14,7 @@
                 <img [src]="imageSource" alt="Avatar" class="img-responsive">
                  <div class="overlay">
                      <h2>{{description}}</h2>
-                     <a class="info" href="#">Add to Cart</a>
+                     <a class="info" (click)="addToCart()">Add to Cart</a>
                  </div>
              </div>        
         </div>

@@ -1,5 +1,5 @@
-import { ProductService } from './products.service';
+// import { ProductService } from '../../app-common/services/products.service';
 
-export const services = [ProductService];
+// export const services = [ProductService];
 
-export * from './products.service';
+// export * from '../../app-common/services/products.service';
