@@ -26,7 +26,11 @@ export class ProductViewComponent implements OnInit {
     @Input() imageSource;
     @Input() description;
     @Input() title;
+    @Input() qty:number;
     @Output() onAddToCart: EventEmitter<any> = new EventEmitter();
+    @Output() onRemoveFromCart: EventEmitter<any> = new EventEmitter();
+    @Output() onQtyInc: EventEmitter<any> = new EventEmitter();
+    @Output() onQtyDec: EventEmitter<any> = new EventEmitter();
 
     constructor() {}
 

@@ -11,11 +11,13 @@
           <p class="card-text">{{description}}</p>
         </div>
       </div>
-      <p>Quantity</p>
+      <p>Quantity:<span class="badge badge-info badge-pill">{{qty}}</span></p>
       <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary" data-toggle="tooltip" title="Increase">+</button>
-        <button type="button" class="btn btn-secondary" data-toggle="tooltip" title="Decrease">-</button>
-        <button type="button" class="btn btn-secondary" data-toggle="tooltip" title="Delete from cart">Delete</button>
+        <button type="button" class="btn btn-secondary" (click)="this.onQtyInc.emit(null)" data-toggle="tooltip" title="Increase">+</button>
+        <button type="button" class="btn btn-secondary" (click)="this.onQtyDec.emit(null)" data-toggle="tooltip"
+            title="Decrease">-</button>
+        <button type="button" class="btn btn-secondary" (click)="this.onRemoveFromCart.emit(null)" data-toggle="tooltip"
+            title="Delete from cart">Delete</button>
       </div>
         <!-- <div class="card-footer text-muted">
             2 days ago

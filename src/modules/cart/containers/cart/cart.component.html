@@ -42,9 +42,11 @@
 <sb-layout-dashboard>
     <div class="container">
         <div class="row text-center" *ngIf="cart">
-            <div *ngFor="let product of cart.products" class="col-2 text-center">
-                <sb-product-view-cart [imageSource]="product.imageSrc" [description]="product.details"
-                    [title]="product.title">
+            <div *ngFor="let item of cart.cartItem" class="col-2 text-center">
+                <sb-product-view-cart [imageSource]="item.product.imageSrc" [description]="item.product.details"
+                    [title]="item.product.title" (onQtyInc)="qtyInc(item)" (onQtyDec)="qtyDec(item)"
+                    (onRemoveFromCart)="removeFromCart(item)"
+                    [qty]="item.qty" >
                 </sb-product-view-cart>
             </div>
         </div>
