@@ -17,7 +17,7 @@ export var PRODUCTS: Product[] = [
                id: 3,
                title: 'Resin BackFlow Fountain',
                details: 'fountain dhoop stand',isAddedToCart:false,
-               imageSrc: 'assets/images/fountain/DSC06386.JPG',isAddedToCart:false
+               imageSrc: 'assets/images/fountain/DSC06386.JPG',
            },
            {
                id: 4,
