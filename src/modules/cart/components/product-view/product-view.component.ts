@@ -12,7 +12,7 @@ import {
 } from '@angular/core';
 
 @Component({
-    selector: 'sb-product-view',
+    selector: 'sb-product-view-cart',
     // // changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './product-view.component.html',
     styleUrls: ['product-view.component.scss'],
@@ -25,7 +25,6 @@ export class ProductViewComponent implements OnInit {
     @Input() productId;
     @Input() imageSource;
     @Input() description;
-    @Input() isAddedToCart:boolean;
     @Input() title;
     @Output() onAddToCart: EventEmitter<any> = new EventEmitter();
 

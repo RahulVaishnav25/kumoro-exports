@@ -44,7 +44,7 @@
         <div class="row text-center">
             <div *ngFor="let product of products" class="col text-center">
                 <sb-product-view (onAddToCart)="addToCart(product)" [productId]="product.id"
-                    [imageSource]="product.imageSrc" [description]="product.details" [title]="product.title">
+                    [imageSource]="product.imageSrc" [description]="product.details" [isAddedToCart]="product.isAddedToCart" [title]="product.title">
                 </sb-product-view>
             </div>
         </div>

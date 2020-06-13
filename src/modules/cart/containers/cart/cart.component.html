@@ -42,10 +42,10 @@
 <sb-layout-dashboard>
     <div class="container">
         <div class="row text-center" *ngIf="cart">
-            <div *ngFor="let product of cart.products" class="col text-center">
-                <sb-product-view [imageSource]="product.imageSrc" [description]="product.details"
+            <div *ngFor="let product of cart.products" class="col-2 text-center">
+                <sb-product-view-cart [imageSource]="product.imageSrc" [description]="product.details"
                     [title]="product.title">
-                </sb-product-view>
+                </sb-product-view-cart>
             </div>
         </div>
     </div>

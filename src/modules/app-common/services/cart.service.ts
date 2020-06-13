@@ -7,10 +7,24 @@ import { PRODUCTS } from './mock-products';
     providedIn: 'root',
 })
 export class CartService {
-    constructor() {}
+    constructor() { }
 
     getProducts(): Product[] {
+        PRODUCTS.forEach(f=>{
+            f.isAddedToCart=this.isProductInCart(f);
+        });
+        console.log("tmplog", PRODUCTS)
         return PRODUCTS;
+    }
+
+    isProductInCart(product: Product): boolean {
+        let retval=false;
+        this.getCart().products.forEach(f => {
+            if (f.id.valueOf() === product.id.valueOf()) {
+                retval= true;
+            }
+        })
+        return retval
     }
 
     getProduct(id: number): Product {
@@ -27,9 +41,9 @@ export class CartService {
         localStorage.setItem('cart', JSON.stringify(cart));
     }
 
-    addToCart(product:Product) {
+    addToCart(product: Product) {
         // let prod: Product = this.getProduct(productId);
-        let cart:Cart = this.getCart() || JSON.parse("{}");
+        let cart: Cart = this.getCart() || JSON.parse("{}");
         if (!cart.products) {
             cart.products = [product];
         } else {
@@ -38,9 +52,9 @@ export class CartService {
         this.saveCart(cart);
     }
 
-    cleanCart(){
-        let c= this.getCart()
-        c.products=[]
+    cleanCart() {
+        let c = this.getCart()
+        c.products = []
         this.saveCart(c);
     }
 }

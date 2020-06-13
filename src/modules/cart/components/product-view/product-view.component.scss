@@ -1,15 +1,23 @@
 @import 'styles/variables.scss';
 
+.card  {
+  margin-top:4em;
+
+}
 
 img {
     border: 2px black solid;
     opacity: 1;
     display: block;
-    width: 200px;
+    width: 160px;
     //   // width: 200px;
-    height: 300px;
+    height: 159px;
     transition: 0.5s ease;
     backface-visibility: hidden;
+}
+.card-text{
+  font-size: small;
+  
 }
 
 .hovereffect {
@@ -54,7 +62,7 @@ img {
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 17px;
+  font-size: 7px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.6);
   -webkit-transform: translateY(-200px);
@@ -77,9 +85,9 @@ img {
 .hovereffect a.info {
   display: inline-block;
   text-decoration: none;
-  padding: 7px 14px;
+  padding: 10px;
   text-transform: uppercase;
-  margin: 50px 0 0 0;
+  margin: 10px 0 0 0;
   background-color: transparent;
   -webkit-transform: translateY(-200px);
   -ms-transform: translateY(-200px);

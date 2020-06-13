@@ -19,7 +19,7 @@ export const ROUTES: Routes = [
         canActivate: [],
         component: chartsContainers.CartsComponent,
         data: {
-            title: 'Charts - SB Admin Angular',
+            title: 'Carts - Kumoro Exports',
             breadcrumbs: [
                 {
                     text: 'Dashboard',
