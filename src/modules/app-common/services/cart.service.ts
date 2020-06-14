@@ -60,7 +60,7 @@ export class CartService {
     deleteItem(item: CartItem) {
         let cart: Cart = this.getCart();
         let index = cart.cartItem.findIndex(i => i.product.id.valueOf() === item.product.id.valueOf());
-        cart.cartItem.splice(index);
+        cart.cartItem.splice(index,1);
         // cart.cartItem[index].qty = Math.max(cart.cartItem[index].qty - 1, 1);
         this.saveCart(cart);
     }
