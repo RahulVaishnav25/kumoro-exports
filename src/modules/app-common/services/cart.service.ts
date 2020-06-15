@@ -44,6 +44,7 @@ export class CartService {
         localStorage.setItem('cart', JSON.stringify(cart));
     }
 
+
     incQty(item: CartItem) {
         let cart: Cart = this.getCart();
         let index = cart.cartItem.findIndex(i => i.product.id.valueOf() === item.product.id.valueOf());

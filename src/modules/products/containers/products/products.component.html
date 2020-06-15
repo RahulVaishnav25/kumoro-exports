@@ -42,7 +42,7 @@
 <sb-layout-dashboard>
     <div class="container">
         <div class="row text-center">
-            <div *ngFor="let product of products" class="col text-center">
+            <div *ngFor="let product of products" class="col-3 text-center">
                 <sb-product-view (onAddToCart)="addToCart(product)" [productId]="product.id"
                     [imageSource]="product.imageSrc" [description]="product.details" [isAddedToCart]="product.isAddedToCart" [title]="product.title">
                 </sb-product-view>
