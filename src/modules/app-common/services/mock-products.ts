@@ -199,7 +199,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Cobra Stand/Cobra stand 2 Inc.jpg',
         productType: ProductsTypes.CobraStand,
         isChild: false,
-        parentProductType: ProductsTypes.BackFlowFountain,
+        parentProductType: ProductsTypes.CobraStand,
     },
     {
         id: 21,
@@ -209,7 +209,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Copper Bottles/BS-CV- -04- Diammond.png',
         productType: ProductsTypes.CopperBottle,
         isChild: false,
-        parentProductType: ProductsTypes.BackFlowFountain,
+        parentProductType: ProductsTypes.CopperBottle,
     },
     {
         id: 22,
@@ -219,7 +219,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Copper Bottles/BS-CV-03 Hammed.png',
         productType: ProductsTypes.CopperBottle,
         isChild: false,
-        parentProductType: ProductsTypes.BackFlowFountain,
+        parentProductType: ProductsTypes.CopperBottle,
     },
     {
         id: 23,
@@ -229,7 +229,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Copper Bottles/BS-CV-05 printed.png',
         productType: ProductsTypes.CopperBottle,
         isChild: false,
-        parentProductType: ProductsTypes.BackFlowFountain,
+        parentProductType: ProductsTypes.CopperBottle,
     },
     {
         id: 24,
@@ -239,7 +239,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Copper Bottles/BS-CV-06 Printed.png',
         productType: ProductsTypes.CopperBottle,
         isChild: false,
-        parentProductType: ProductsTypes.BackFlowFountain,
+        parentProductType: ProductsTypes.CopperBottle,
     },
     {
         id: 25,
@@ -249,7 +249,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Copper Bottles/BS-CV-07 Printed.png',
         productType: ProductsTypes.CopperBottle,
         isChild: false,
-        parentProductType: ProductsTypes.BackFlowFountain,
+        parentProductType: ProductsTypes.CopperBottle,
     },
     {
         id: 26,
@@ -259,7 +259,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Copper Bottles/BS-CV-08 Printed.jpg',
         productType: ProductsTypes.CopperBottle,
         isChild: false,
-        parentProductType: ProductsTypes.BackFlowFountain,
+        parentProductType: ProductsTypes.CopperBottle,
     },
     {
         id: 27,
@@ -269,7 +269,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Copper Bottles/BS-CV-09 printed.jpg',
         productType: ProductsTypes.CopperBottle,
         isChild: false,
-        parentProductType: ProductsTypes.BackFlowFountain,
+        parentProductType: ProductsTypes.CopperBottle,
     },
     {
         id: 28,
@@ -279,7 +279,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Copper Bottles/BS-CV-10 Printed.jpg',
         productType: ProductsTypes.CopperBottle,
         isChild: false,
-        parentProductType: ProductsTypes.BackFlowFountain,
+        parentProductType: ProductsTypes.CopperBottle,
     },
     {
         id: 29,
@@ -289,7 +289,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Copper Bottles/BS-CV-11 Printed.jpg',
         productType: ProductsTypes.CopperBottle,
         isChild: false,
-        parentProductType: ProductsTypes.BackFlowFountain,
+        parentProductType: ProductsTypes.CopperBottle,
     },
     {
         id: 30,
@@ -795,7 +795,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Tarot Box/BOX-03a.JPG',
         productType: ProductsTypes.TarotBox,
         isChild: false,
-        parentProductType: ProductsTypes.ResinBurner,
+        parentProductType: ProductsTypes.TarotBox,
     },
     {
         id: 79,
@@ -805,7 +805,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Tarot Box/RCI -01.jpg',
         productType: ProductsTypes.TarotBox,
         isChild: false,
-        parentProductType: ProductsTypes.ResinBurner,
+        parentProductType: ProductsTypes.TarotBox,
     },
     {
         id: 80,
@@ -815,7 +815,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Tarot Box/RCI-02.jpg',
         productType: ProductsTypes.TarotBox,
         isChild: false,
-        parentProductType: ProductsTypes.ResinBurner,
+        parentProductType: ProductsTypes.TarotBox,
     },
     {
         id: 81,
@@ -825,7 +825,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Tarot Box/RCI-03.jpg',
         productType: ProductsTypes.TarotBox,
         isChild: false,
-        parentProductType: ProductsTypes.ResinBurner,
+        parentProductType: ProductsTypes.TarotBox,
     },
     {
         id: 82,
@@ -835,7 +835,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Tarot Box/RCI-04.jpg',
         productType: ProductsTypes.TarotBox,
         isChild: false,
-        parentProductType: ProductsTypes.ResinBurner,
+        parentProductType: ProductsTypes.TarotBox,
     },
     {
         id: 83,
@@ -845,7 +845,7 @@ export var PRODUCTS: Product[] = [
         imageSrc: 'assets/images/Tarot Box/Tarot Box.jpg',
         productType: ProductsTypes.TarotBox,
         isChild: false,
-        parentProductType: ProductsTypes.ResinBurner,
+        parentProductType: ProductsTypes.TarotBox,
     },
     // {
     //     id: 84,
@@ -858,8 +858,11 @@ export var PRODUCTS: Product[] = [
 
 
 export var PARENTPRODUCTS: ParentProducts[]=[
-    { title: "Backflow fountaion", parentProductType: ProductsTypes.BackFlowFountain },
-    { title: "hello", parentProductType: ProductsTypes.IncenseHolder},
-    { title: "Hiasas", parentProductType: ProductsTypes.OilBurner},
-    { title: "afasfHi", parentProductType: ProductsTypes.ResinBurner},
+    { title: "Backflow fountain", parentProductType: ProductsTypes.BackFlowFountain },
+    { title: "Incense Holder", parentProductType: ProductsTypes.IncenseHolder},
+    { title: "Oil Burner", parentProductType: ProductsTypes.OilBurner},
+    { title: "Resin Burner", parentProductType: ProductsTypes.ResinBurner},
+    { title: "Cobra Stand", parentProductType: ProductsTypes.CobraStand},
+    { title: "Tarot Box", parentProductType: ProductsTypes.TarotBox},
+    { title: "Copper Bottles", parentProductType: ProductsTypes.CopperBottle},
 ]
