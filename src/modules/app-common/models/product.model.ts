@@ -1,16 +1,37 @@
-export interface Product{
-    id:number;
-    title:string;
-    imageSrc:string;
-    details:string;
-    isAddedToCart:boolean;
-    productType:ProductsTypes;
-    isChild:boolean;
-    parentProductType:ProductsTypes;
+export interface Product {
+    id: number;
+    title: string;
+    imageSrc: string;
+    details: string;
+    isAddedToCart: boolean;
+    productType: ProductsTypes;
+    isChild: boolean;
+    parentProductType: ProductsTypes;
 }
 
+export interface ParentProducts {
+    title: string;
+    parentProductType: ProductsTypes;
+}
+
+
 export enum ProductsTypes {
-    BackFlowFountain,CeramicFountain,ResinFountain,CobraStand,CopperBottle,IncenseHolder,BrassIncenseHolder,
-    CeramicIncenseHolder,MetalIncenseHolder,PaperMacheIncenseHolder,WoodenIncenseHolder,
-    OilBurner,BrassOilBurner,SoftStoneOilBurner,ResinBurner,BrassResinBurner,WoodenResinBurner,TarotBox
+    MetalIncenseHolder,
+    ResinFountain,
+    CopperBottle,
+    BackFlowFountain,
+    CeramicFountain,
+    CobraStand,
+    IncenseHolder,
+    BrassIncenseHolder,
+    CeramicIncenseHolder,
+    PaperMacheIncenseHolder,
+    WoodenIncenseHolder,
+    OilBurner,
+    BrassOilBurner,
+    SoftStoneOilBurner,
+    ResinBurner,
+    BrassResinBurner,
+    WoodenResinBurner,
+    TarotBox,
 }

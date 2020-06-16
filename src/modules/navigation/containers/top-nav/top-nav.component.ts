@@ -1,5 +1,7 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { NavigationService } from '@modules/navigation/services';
+import { CartService } from '@common/services/cart.service';
+import { ParentProducts } from '@common/models';
 
 @Component({
     selector: 'sb-top-nav',
@@ -8,8 +10,13 @@ import { NavigationService } from '@modules/navigation/services';
     styleUrls: ['top-nav.component.scss'],
 })
 export class TopNavComponent implements OnInit {
-    constructor(private navigationService: NavigationService) {}
-    ngOnInit() {}
+    constructor(private navigationService: NavigationService, private cartService: CartService) { }
+    parentProducts: ParentProducts[] = [];
+
+    ngOnInit() {
+        this.parentProducts = this.cartService.getParentProductTypes()
+    }
+    
     toggleSideNav() {
         this.navigationService.toggleSideNav();
     }

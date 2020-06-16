@@ -26,11 +26,12 @@
                 Products
               </a>
               <div class="dropdown-menu dropdown-menu-right" ngbDropdownMenu  aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Fountain Stand</a>
-                <a class="dropdown-item" href="#">Insence Stand</a>
-                <a class="dropdown-item" href="#">Oil Burner</a>
+                <a class="dropdown-item" *ngFor="let parentProduct of parentProducts"
+                    routerLink="/products/{{parentProduct.parentProductType}}">{{parentProduct.title}}</a>
+                <!-- <a class="dropdown-item" href="#">Insence Stand</a>
+                <a class="dropdown-item" href="#">Oil Burner</a> -->
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">See all products</a>
+                <a class="dropdown-item" href="/products">See all products</a>
               </div>
             </li>
 

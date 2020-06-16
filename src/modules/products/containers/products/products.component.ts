@@ -1,29 +1,45 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit, OnDestroy } from '@angular/core';
 // import { ProductService } from '@modules/products/services';
 // import { Product } from '@modules/products/models';
 // import { ProductService } from '@common/services/products.service';
 import { CartService } from '@common/services/cart.service';
 import { Product } from '@common/models';
+import { ActivatedRoute } from '@angular/router';
+import { Subscription } from 'rxjs';
 
 @Component({
     selector: 'sb-products',
-    // changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './products.component.html',
     styleUrls: ['products.component.scss'],
-    // providers: [ProductService, CartService]
 })
-export class ProductsComponent implements OnInit {
-    constructor(private cartService: CartService) {}
+export class ProductsComponent implements OnInit, OnDestroy {
+    parentProductId;
     products: Product[];
-    ngOnInit() {
-        this.products = this.cartService.getProducts();
-        // this.cartService.addToCart(2);
-        
+    sub: Subscription;
+    constructor(private cartService: CartService, private route: ActivatedRoute) {
+        this.sub = this.route.params.subscribe(params => { this.parentProductId = params['id']; this.refreshContent() });
+        // this.parentProductId = this.route.snapshot.paramMap.get('id');
+    }
+    ngOnDestroy() {
+        this.sub.unsubscribe();
     }
 
-    addToCart(product:Product) {
+    ngOnInit() {
+
+    }
+
+    refreshContent() {
+        if (this.parentProductId) {
+            this.products = this.cartService.getProductsUnderParent(this.parentProductId);
+        }
+        else {
+            this.products = this.cartService.getProducts();
+        }
+    }
+
+    addToCart(product: Product) {
         this.cartService.addToCart(product);
-        console.log('added to cart');
-        this.products = this.cartService.getProducts();
+        // console.log('added to cart');
+        this.refreshContent();
     }
 }

@@ -32,6 +32,24 @@ export const ROUTES: Routes = [
             ],
         } as SBRouteData,
     },
+    {
+        path: ':id',
+        canActivate: [],
+        component: chartsContainers.ProductsComponent,
+        data: {
+            title: 'Products - Kumoro Exports',
+            breadcrumbs: [
+                {
+                    text: 'Dashboard',
+                    link: '/dashboard',
+                },
+                {
+                    text: 'Charts',
+                    active: true,
+                },
+            ],
+        } as SBRouteData,
+    },
 ];
 
 @NgModule({

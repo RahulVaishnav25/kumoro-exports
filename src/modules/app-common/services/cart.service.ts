@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Product, Cart, CartItem } from '@common/models';
+import { Product, Cart, CartItem, ProductsTypes, ParentProducts } from '@common/models';
 import { Observable, of, BehaviorSubject } from 'rxjs';
-import { PRODUCTS } from './mock-products';
+import { PRODUCTS, PARENTPRODUCTS } from './mock-products';
 
 @Injectable({
     providedIn: 'root',
@@ -13,8 +13,14 @@ export class CartService {
         PRODUCTS.forEach(f => {
             f.isAddedToCart = this.isProductInCart(f);
         });
-        console.log("tmplog", PRODUCTS)
         return PRODUCTS;
+    }
+
+    getProductsUnderParent(parentProductId: number): Product[] {
+        PRODUCTS.forEach(f => {
+            f.isAddedToCart = this.isProductInCart(f);
+        });
+        return PRODUCTS.filter(f => f.parentProductType == parentProductId);
     }
 
     isProductInCart(product: Product): boolean {
@@ -32,9 +38,6 @@ export class CartService {
         return this.getProducts().filter(x => x.id.valueOf() === id)[0];
     }
 
-
-
-
     getCart(): Cart {
         let cartjs: Cart = JSON.parse(localStorage.getItem('cart') || "{}");
         return cartjs;
@@ -43,7 +46,6 @@ export class CartService {
     saveCart(cart: Cart) {
         localStorage.setItem('cart', JSON.stringify(cart));
     }
-
 
     incQty(item: CartItem) {
         let cart: Cart = this.getCart();
@@ -61,20 +63,11 @@ export class CartService {
     deleteItem(item: CartItem) {
         let cart: Cart = this.getCart();
         let index = cart.cartItem.findIndex(i => i.product.id.valueOf() === item.product.id.valueOf());
-        cart.cartItem.splice(index,1);
-        // cart.cartItem[index].qty = Math.max(cart.cartItem[index].qty - 1, 1);
+        cart.cartItem.splice(index, 1);
         this.saveCart(cart);
     }
 
-
-    // increaseProductQty(product: Product) {
-    //     let cart: Cart = this.getCart();
-    //     this.increaseQty(product, cart.cartItem);
-    //     this.saveCart(cart);
-    // }
-
     addToCart(product: Product) {
-        // let prod: Product = this.getProduct(productId);
         let cart: Cart = this.getCart() || JSON.parse("{}");
         if (!cart.cartItem) {
             cart.cartItem = [new CartItem(product, 1)];
@@ -92,7 +85,7 @@ export class CartService {
 
 
     getProductsFromCartItems(cartItems: CartItem[]): Product[] {
-        let tmparr: Product[] = []
+        let tmparr: Product[] = [];
         if (cartItems) {
             cartItems.forEach(element => {
                 tmparr.push(element.product);
@@ -101,11 +94,15 @@ export class CartService {
         return tmparr;
     }
 
-    // increaseQty(product: Product, cartItems: CartItem[]) {
-    // let prod = this.getProductsFromCartItems(cartItems)
-    // let index = prod.indexOf(product);
-    // console.log(cartItems,index)
-    // cartItems[index].qty += 1
+    exgetParentProductTypes(): ProductsTypes[] {
+        let prods = this.getProducts();
+        let arr: ProductsTypes[] = [];
+        prods.forEach(f => { if (arr.indexOf(f.parentProductType) === -1) arr.push(f.parentProductType) })
+        return arr;
+    }
 
-    // }
+    getParentProductTypes(): ParentProducts[] {
+        return PARENTPRODUCTS;
+    }
+
 }
