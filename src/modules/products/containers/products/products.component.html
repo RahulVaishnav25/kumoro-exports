@@ -41,12 +41,32 @@
 </sb-layout-dashboard> -->
 <sb-layout-dashboard>
     <div class="container">
-        <div class="row text-center">
-            <div *ngFor="let product of products" class="col-3 text-center">
-                <sb-product-view (onAddToCart)="addToCart(product)" [productId]="product.id"
-                    [imageSource]="product.imageSrc" [description]="product.details" [isAddedToCart]="product.isAddedToCart" [title]="product.title">
-                </sb-product-view>
-            </div>
-        </div>
+
+        <ul ngbNav #nav="ngbNav" class="nav-tabs nav nav-pills nav-fill" keyboard="changeWithArrows">
+            <li ngbNavItem *ngFor="let x of productTypesChild">
+                <a ngbNavLink>{{x.title}}</a>
+                <ng-template ngbNavContent>
+
+                    <div class="row text-center">
+                        <div *ngFor="let product of products" class="text-center">
+                            <!-- {{product.productType}},{{x.parentProductType}},{{product.productType==x.parentProductType}} -->
+                            <sb-product-view *ngIf="product.productType==x.parentProductType"
+                                (onAddToCart)="addToCart(product)" [productId]="product.id"
+                                [imageSource]="product.imageSrc" [description]="product.details"
+                                [isAddedToCart]="product.isAddedToCart" [title]="product.title">
+                            </sb-product-view>
+                        </div>
+                    </div>
+
+                </ng-template>
+            </li>
+
+        </ul>
+        <div [ngbNavOutlet]="nav"></div>
+
+
+
+
+
     </div>
 </sb-layout-dashboard>
