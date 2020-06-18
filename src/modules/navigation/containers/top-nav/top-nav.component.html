@@ -1,12 +1,12 @@
-<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand" routerLink="/dashboard">Kumoro Exports</a>
+<nav class="sb-topnav navbar navbar-expand navbar-dark" style="background-color: #13b396;;">
+    <a class="navbar-brand" style="font-family:'Marcellus SC', serif;" routerLink="/dashboard">Kumoro Exports</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+          <ul class="navbar-nav ml-auto" >
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#" >Home <span class="sr-only">(current)</span></a>
               
             </li>
             <li class="nav-item active">
@@ -37,7 +37,7 @@
 
             <li class="nav-item active">
                 <a class="nav-link" routerLink="/carts" >
-                    <img src="../../../../assets/images/Carticon.webp" width="45" alt="" class="d-inline-block align-middle mr-2" data-toggle="tooltip" title="Cart">
+                    <img src="../../../../assets/images/local_mall-white-18dp.svg" width="25" alt="" class="d-inline-block align-middle mr-2" data-toggle="tooltip" title="Cart">
                 </a>
             </li>
             <!-- <span class="d-inline-block" tabindex="0" "></span> -->
@@ -45,10 +45,12 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
-
+<!-- <style>
+   sb-topnav navbar navbar-expand navbar-dark bg-dark
+</style> -->
 <!-- 
 
         <li class="nav-item dropdown dropdown-user no-caret" *ngIf="authService.currentUser | async as user" ngbDropdown

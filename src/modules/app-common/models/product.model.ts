@@ -34,5 +34,5 @@ export enum ProductsTypes {
     BrassResinBurner,
     WoodenResinBurner,
     TarotBox,
-    None,
+    
 }
