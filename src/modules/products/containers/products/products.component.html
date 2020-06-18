@@ -42,7 +42,7 @@
 <sb-layout-dashboard>
     <div class="container">
 
-        <ul ngbNav #nav="ngbNav" class="nav-tabs nav nav-pills nav-fill" keyboard="changeWithArrows">
+        <ul ngbNav #nav="ngbNav" class="nav-tabs nav nav-pills nav-fill" style="margin-bottom: 3em;" keyboard="changeWithArrows">
             <li ngbNavItem *ngFor="let x of productTypesChild">
                 <a ngbNavLink>{{x.title}}</a>
                 <ng-template ngbNavContent>
@@ -52,7 +52,7 @@
                             <!-- {{product.productType}},{{x.parentProductType}},{{product.productType==x.parentProductType}} -->
                             <sb-product-view *ngIf="product.productType==x.parentProductType"
                                 (onAddToCart)="addToCart(product)" [productId]="product.id"
-                                [imageSource]="product.imageSrc" [description]="product.details"
+                                [imageSource]="product.imageSrc" [description]="product.details+' -KE- '+('000' + product.id).slice(-3)"
                                 [isAddedToCart]="product.isAddedToCart" [title]="product.title">
                             </sb-product-view>
                         </div>
@@ -64,7 +64,7 @@
         </ul>
         <div [ngbNavOutlet]="nav"></div>
 
-
+<!-- nav-fill -->
 
 
 

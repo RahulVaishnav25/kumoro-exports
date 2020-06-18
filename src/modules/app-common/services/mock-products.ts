@@ -868,7 +868,19 @@ export var PARENTPRODUCTSTYPES: ParentProducts[] = [
 ]
 
 export var CHILDPRODUCTSTYPES: ParentProducts[] = [
-    { title: "Resinn fntn", parentProductType: ProductsTypes.ResinFountain},
-    { title: "Ceramixx fntn", parentProductType: ProductsTypes.CeramicFountain },
+    { title: "Resin Fountain", parentProductType: ProductsTypes.ResinFountain},
+    { title: "Ceramic Fountain", parentProductType: ProductsTypes.CeramicFountain },
+    { title: "Metal Incense Holder", parentProductType: ProductsTypes.MetalIncenseHolder },
+    { title: "Wooden Incense Holder", parentProductType: ProductsTypes.WoodenIncenseHolder },
+    { title: "Ceramic Incense Holder", parentProductType: ProductsTypes.CeramicIncenseHolder },
+    { title: "Brass Incense Holder", parentProductType: ProductsTypes.BrassIncenseHolder },
+    { title: "Paper Mache Incense Holder", parentProductType: ProductsTypes.PaperMacheIncenseHolder },
+    { title: "Brass Oil Burner", parentProductType: ProductsTypes.BrassOilBurner },
+    { title: "Soft Stone Oil Burner", parentProductType: ProductsTypes.SoftStoneOilBurner },
+    { title: "Brass Resin Burner", parentProductType: ProductsTypes.BrassResinBurner },
+    { title: "Wooden Resin Burner", parentProductType: ProductsTypes.WoodenResinBurner },
+    { title: "Cobra Stand", parentProductType: ProductsTypes.CobraStand},
+    { title: "Tarot Box", parentProductType: ProductsTypes.TarotBox},
+    { title: "Copper Bottles", parentProductType: ProductsTypes.CopperBottle},
     
 ]
