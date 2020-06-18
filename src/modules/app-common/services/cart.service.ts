@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Product, Cart, CartItem, ProductsTypes, ParentProducts } from '@common/models';
 import { Observable, of, BehaviorSubject } from 'rxjs';
-import { PRODUCTS, PARENTPRODUCTS } from './mock-products';
+import { PRODUCTS, PARENTPRODUCTSTYPES, CHILDPRODUCTSTYPES } from './mock-products';
 
 @Injectable({
     providedIn: 'root',
@@ -22,6 +22,19 @@ export class CartService {
         });
         return PRODUCTS.filter(f => f.parentProductType == parentProductId);
     }
+
+    getProductTypesUnderParent(parentProductId: number): ProductsTypes[] {
+        let productTypes: ProductsTypes[] = [];
+        PRODUCTS.forEach(f => {
+            f.isAddedToCart = this.isProductInCart(f);
+            if (f.parentProductType == parentProductId) {
+                if (productTypes.indexOf(f.productType) === -1) productTypes.push(f.productType)
+            }
+        });
+        return productTypes;
+    }
+
+
 
     isProductInCart(product: Product): boolean {
         let retval = false;
@@ -102,7 +115,18 @@ export class CartService {
     }
 
     getParentProductTypes(): ParentProducts[] {
-        return PARENTPRODUCTS;
+        return PARENTPRODUCTSTYPES;
     }
+
+    getChildProductTypeTitle(productType: number): ParentProducts {
+        let str:ParentProducts;
+        CHILDPRODUCTSTYPES.forEach(f => {
+            if (f.parentProductType == productType)
+                str = f ;
+        })
+        return str ? str : null;
+    }
+
+
 
 }

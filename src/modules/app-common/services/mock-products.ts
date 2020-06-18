@@ -857,7 +857,7 @@ export var PRODUCTS: Product[] = [
 ];
 
 
-export var PARENTPRODUCTS: ParentProducts[]=[
+export var PARENTPRODUCTSTYPES: ParentProducts[] = [
     { title: "Backflow fountain", parentProductType: ProductsTypes.BackFlowFountain },
     { title: "Incense Holder", parentProductType: ProductsTypes.IncenseHolder},
     { title: "Oil Burner", parentProductType: ProductsTypes.OilBurner},
@@ -865,4 +865,10 @@ export var PARENTPRODUCTS: ParentProducts[]=[
     { title: "Cobra Stand", parentProductType: ProductsTypes.CobraStand},
     { title: "Tarot Box", parentProductType: ProductsTypes.TarotBox},
     { title: "Copper Bottles", parentProductType: ProductsTypes.CopperBottle},
+]
+
+export var CHILDPRODUCTSTYPES: ParentProducts[] = [
+    { title: "Resinn fntn", parentProductType: ProductsTypes.ResinFountain},
+    { title: "Ceramixx fntn", parentProductType: ProductsTypes.CeramicFountain },
+    
 ]
