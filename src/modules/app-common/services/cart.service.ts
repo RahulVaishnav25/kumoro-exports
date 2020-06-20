@@ -2,12 +2,13 @@ import { Injectable } from '@angular/core';
 import { Product, Cart, CartItem, ProductsTypes, ParentProducts } from '@common/models';
 import { Observable, of, BehaviorSubject } from 'rxjs';
 import { PRODUCTS, PARENTPRODUCTSTYPES, CHILDPRODUCTSTYPES } from './mock-products';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
     providedIn: 'root',
 })
 export class CartService {
-    constructor() { }
+    constructor(private http: HttpClient) { }
 
     getProducts(): Product[] {
         PRODUCTS.forEach(f => {
@@ -119,14 +120,18 @@ export class CartService {
     }
 
     getChildProductTypeTitle(productType: number): ParentProducts {
-        let str:ParentProducts;
+        let str: ParentProducts;
         CHILDPRODUCTSTYPES.forEach(f => {
             if (f.parentProductType == productType)
-                str = f ;
+                str = f;
         })
         return str ? str : null;
     }
 
+    sendOrder(name, email, specs): Observable<Object> {
+        return this.http.post("http://127.0.0.1:5000/mail", { "name": name, "email": email, "specs": specs, "order": this.getCart().cartItem.map(v => {
+            return "Item ID: KE" + ('000' + v.product.id).slice(-3) + ", Qty:" + v.qty
+         }) }, { responseType: 'text' })
 
-
+    }
 }

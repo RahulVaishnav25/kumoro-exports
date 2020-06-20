@@ -63,17 +63,17 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form [formGroup]="orderForm">
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
-                                <label for="validationDefault01">Full Name</label>
-                                <input type="text" class="form-control" id="validationDefault01" value="" required />
+                                <label for="name">Full Name</label>
+                                <input type="text" class="form-control" formControlName="name" required />
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
-                                <label for="validationDefault02">Email address</label>
-                                <input type="email" class="form-control" id="validationDefault02"
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" formControlName="email"
                                     aria-describedby="emailHelp" placeholder="xx@gmail.com" />
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with
                                     anyone else.</small>
@@ -83,12 +83,16 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">Any Specifications</span>
                             </div>
-                            <textarea class="form-control" aria-label="Any Specifications"></textarea>
+                            <textarea formControlName="specs" class="form-control" aria-label="Any Specifications"></textarea>
                         </div>
                     </form>
                 </div>
                 <div class="modal-footer">
+<<<<<<< HEAD
                     <button type="button" class="btn btn--outline" data-dismiss="modal">
+=======
+                    <button type="button" class="btn btn-secondary" (click)="confirmOrder()" data-dismiss="modal">
+>>>>>>> 16819169ea0906626543993fcfec084cb2cd3f48
                         Confirm Order
                     </button>
                     <button type="button" class="btn btn--outline" style="margin-left: 1em;">Cancel</button>

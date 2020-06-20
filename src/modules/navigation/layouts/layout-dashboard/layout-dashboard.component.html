@@ -1,5 +1,5 @@
 <span [ngClass]='{"sb-nav-fixed": !static}'>
-    <sb-top-nav></sb-top-nav>
+    <sb-top-nav id="home"></sb-top-nav>
     <div id="layoutSidenav_content">
         <main>
             <div class="container-fluid">
@@ -7,7 +7,7 @@
                 <ng-content></ng-content>
             </div>
         </main>
-        <sb-footer></sb-footer>
+        <sb-footer id='contacts'></sb-footer>
     </div>
 
     <!-- <div *ngIf="false" id="layoutSidenav">

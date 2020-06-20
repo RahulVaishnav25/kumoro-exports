@@ -14,18 +14,20 @@ import { Subscription } from 'rxjs';
 })
 export class ProductsComponent implements OnInit, OnDestroy {
     parentProductId;
+    showAllProducts: boolean = false;
     products: Product[];
     sub: Subscription;
     productTypesChild: ParentProducts[] = [];
     constructor(private cartService: CartService, private route: ActivatedRoute) {
         this.sub = this.route.params.subscribe(params => { this.parentProductId = params['id']; this.refreshContent() });
         // this.parentProductId = this.route.snapshot.paramMap.get('id');
+        this.showAllProducts = this.parentProductId ? false : true;
     }
     ngOnDestroy() {
         this.sub.unsubscribe();
     }
 
-    ngOnInit() {}
+    ngOnInit() { }
 
     refreshContent() {
         this.productTypesChild = [];
@@ -36,13 +38,14 @@ export class ProductsComponent implements OnInit, OnDestroy {
                 let val = this.cartService.getChildProductTypeTitle(f);
                 // console.log("asasas",val);
                 this.productTypesChild.push(val);
-                
+
             });
 
-            console.log("aa",this.products, this.productTypesChild);
+            console.log("aa", this.products, this.productTypesChild);
 
         }
         else {
+            // alert("all")
             this.products = this.cartService.getProducts();
         }
     }
