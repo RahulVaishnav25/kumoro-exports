@@ -1,1 +1,29 @@
 @import 'styles/variables.scss';
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: .4em 1.20em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: .75em;
+    margin-left: .75em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
+    border-radius: 0;
+  }
+  
+  .btn--outline{
+    border: 3px solid #fff;
+    color: #fff;
+  }
+  .btn--outline:hover{
+    background: #fff;
+    color: #13b396;
+  }
+  .overlay-text {
+    margin: 20px 0px 10px 420px;
+    font: bold 18px 'Nunito', sans-serif ;
+    color: #fff;
+}

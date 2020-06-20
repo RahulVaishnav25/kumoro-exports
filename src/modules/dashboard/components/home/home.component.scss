@@ -1,0 +1,91 @@
+@import 'styles/variables.scss';
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  .footer-company-about{
+    line-height: 20px;
+    color:  #13b396;
+    font:normal 15px 'Nunito', sans-serif ;
+    margin: 0;
+}
+ .footer-company-about span{
+  display: block;
+  color:  #13b396;
+  font:bold 18px 'Nunito', sans-serif ;
+  margin-bottom: 20px;
+}
+   
+  body {
+    background: #333;
+  }
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    padding: .5em 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: .75em;
+    margin-left: 5em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
+    border-radius: 0;
+  }
+  
+  .btn--outline{
+    border: 3px solid #13b396;
+    color: #13b396;
+  }
+  .btn--outline:hover{
+    background: #13b396;
+    color: white;
+  }
+    
+   
+  .imagex {
+    border: 3px solid #13b396;  
+    float: left;
+    height: 210px;
+    width: 210px;
+    margin: 20px;
+    overflow: hidden;
+    
+    -webkit-box-shadow: 5px 5px 5px  rgb(182, 189, 189);
+            box-shadow: 5px 5px 5px rgb(182, 189, 189);  
+  }
+  .shrink img {
+    height: 300px;
+    width: 300px;
+   
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+   
+  .shrink img:hover {
+    width: 200px;
+    height: 200px;
+  }
+   
+  .shrink img {
+    height: 300px;
+    width: 300px;
+   
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+   
+  .shrink img:hover {
+    width: 200px;
+    height: 200px;
+  }

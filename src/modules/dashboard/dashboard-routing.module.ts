@@ -18,7 +18,7 @@ export const ROUTES: Routes = [
     {
         path: '',
         data: {
-            title: 'Dashboard - TB Event Manager',
+            title: 'Home - KE KUMORO EXPORTS',
             breadcrumbs: [
                 {
                     text: 'Events',
@@ -50,7 +50,7 @@ export const ROUTES: Routes = [
     {
         path: 'about',
         data: {
-            title: 'About - SB Admin Angular',
+            title: 'About - KE KUMORO EXPORTS',
             breadcrumbs: [
                 {
                     text: 'Dashboard',
@@ -65,6 +65,7 @@ export const ROUTES: Routes = [
         canActivate: [],
         component: dashboardContainers.AboutComponent,
     },
+    
 ];
 
 @NgModule({

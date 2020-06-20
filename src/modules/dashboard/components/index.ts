@@ -1,16 +1,16 @@
-import { DashboardCardsComponent } from './dashboard-cards/dashboard-cards.component';
+import { HomeComponent } from './home/home.component';
 import { DashboardChartsComponent } from './dashboard-charts/dashboard-charts.component';
-import { DashboardTablesComponent } from './dashboard-tables/dashboard-tables.component';
+import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { AboutCardsComponent } from './about-cards/about-cards.component';
 
 export const components = [
-    DashboardCardsComponent,
+    HomeComponent,
     DashboardChartsComponent,
-    DashboardTablesComponent,
+    ImageSliderComponent,
     AboutCardsComponent,
 ];
 
 export * from './about-cards/about-cards.component';
-export * from './dashboard-cards/dashboard-cards.component';
+export * from './home/home.component';
 export * from './dashboard-charts/dashboard-charts.component';
-export * from './dashboard-tables/dashboard-tables.component';
+export * from './image-slider/image-slider.component';
