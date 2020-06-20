@@ -42,7 +42,7 @@
 <sb-layout-dashboard>
     <div class="container">
 
-        <ul ngbNav #nav="ngbNav" class="nav-tabs nav nav-pills nav-fill" style="margin-bottom: 3em;" keyboard="changeWithArrows">
+        <ul ngbNav #nav="ngbNav" class="nav-tabs nav nav-pills nav-fill" style="margin-bottom: 3em; " keyboard="changeWithArrows">
             <li ngbNavItem *ngFor="let x of productTypesChild">
                 <a ngbNavLink>{{x.title}}</a>
                 <ng-template ngbNavContent>
@@ -70,3 +70,18 @@
 
     </div>
 </sb-layout-dashboard>
+<style>
+  .nav-pills > li > a,.nav-pills > li > a > .nav-link{
+    background-color: #caf3e8;
+    color: #13b396;
+
+  }.nav-pills > li >  a:hover,.nav-pills > li > a.active , .nav-pills > li > a.active > .nav-link{
+    background-color: #13b396;
+    color: #ffffff;
+    
+}
+/* .nav-link {
+    color:#ffffff;
+} */
+
+</style>
