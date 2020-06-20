@@ -1,72 +1,38 @@
-<!-- <sb-layout-dashboard>
-    <sb-dashboard-head title="Charts" [hideBreadcrumbs]="false"></sb-dashboard-head>
-    <sb-card>
-        <div class="card-body">Chart.js is a third party plugin that is used to generate the charts in this template.
-            The charts below have been customized - for further customization options, please visit the official <a
-                target="_blank" href="https://www.chartjs.org/docs/latest/">Chart.js documentation</a>.</div>
-    </sb-card>
-    <sb-card>
-        <div class="card-header">
-            <fa-icon class="mr-1" [icon]='["fas", "chart-area"]'></fa-icon>Area Chart Example
-        </div>
-        <div class="card-body">
-            <sb-charts-area></sb-charts-area>
-        </div>
-        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-    </sb-card>
-    <div class="row">
-        <div class="col-lg-6">
-            <sb-card>
-                <div class="card-header">
-                    <fa-icon class="mr-1" [icon]='["fas", "chart-bar"]'></fa-icon>Bar Chart Example
-                </div>
-                <div class="card-body">
-                    <sb-charts-bar></sb-charts-bar>
-                </div>
-                <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-            </sb-card>
-        </div>
-        <div class="col-lg-6">
-            <sb-card>
-                <div class="card-header">
-                    <fa-icon class="mr-1" [icon]='["fas", "chart-pie"]'></fa-icon>Pie Chart Example
-                </div>
-                <div class="card-body">
-                    <sb-charts-pie></sb-charts-pie>
-                </div>
-                <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-            </sb-card>
-        </div>
-    </div>
-</sb-layout-dashboard> -->
 <sb-layout-dashboard>
     <div class="container">
+        <div *ngIf="!showAllProducts">
+            <ul ngbNav #nav="ngbNav" class="nav-tabs nav nav-pills nav-fill" style="margin-bottom: 3em;"
+                keyboard="changeWithArrows">
+                <li ngbNavItem *ngFor="let x of productTypesChild">
+                    <a ngbNavLink>{{x.title}}</a>
+                    <ng-template ngbNavContent>
 
-        <ul ngbNav #nav="ngbNav" class="nav-tabs nav nav-pills nav-fill" style="margin-bottom: 3em;" keyboard="changeWithArrows">
-            <li ngbNavItem *ngFor="let x of productTypesChild">
-                <a ngbNavLink>{{x.title}}</a>
-                <ng-template ngbNavContent>
-
-                    <div class="row text-center">
-                        <div *ngFor="let product of products" class="text-center">
-                            <!-- {{product.productType}},{{x.parentProductType}},{{product.productType==x.parentProductType}} -->
-                            <sb-product-view *ngIf="product.productType==x.parentProductType"
-                                (onAddToCart)="addToCart(product)" [productId]="product.id"
-                                [imageSource]="product.imageSrc" [description]="product.details+' -KE- '+('000' + product.id).slice(-3)"
-                                [isAddedToCart]="product.isAddedToCart" [title]="product.title">
-                            </sb-product-view>
+                        <div class="row text-center">
+                            <div *ngFor="let product of products" class="text-center">
+                                <!-- {{product.productType}},{{x.parentProductType}},{{product.productType==x.parentProductType}} -->
+                                <sb-product-view *ngIf="product.productType==x.parentProductType"
+                                    (onAddToCart)="addToCart(product)" [productId]="product.id"
+                                    [imageSource]="product.imageSrc"
+                                    [description]="product.details+': KE-'+('000' + product.id).slice(-3)"
+                                    [isAddedToCart]="product.isAddedToCart" [title]="product.title">
+                                </sb-product-view>
+                            </div>
                         </div>
-                    </div>
 
-                </ng-template>
-            </li>
+                    </ng-template>
+                </li>
 
-        </ul>
-        <div [ngbNavOutlet]="nav"></div>
-
-<!-- nav-fill -->
-
-
-
+            </ul>
+            <div [ngbNavOutlet]="nav"></div>
+        </div>
+        <div *ngIf="showAllProducts" class="row">
+            <div *ngFor="let product of products" class="text-center col">
+                <sb-product-view (onAddToCart)="addToCart(product)"
+                    [productId]="product.id" [imageSource]="product.imageSrc"
+                    [description]="product.details+' -KE- '+('000' + product.id).slice(-3)"
+                    [isAddedToCart]="product.isAddedToCart" [title]="product.title">
+                </sb-product-view>
+            </div>
+        </div>
     </div>
 </sb-layout-dashboard>

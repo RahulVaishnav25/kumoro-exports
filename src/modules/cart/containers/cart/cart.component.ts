@@ -4,6 +4,7 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { CartService } from '@common/services/cart.service';
 import { Cart, Product } from '@common/models';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import { FormControl, FormGroup } from '@angular/forms';
 declare var Email;
 @Component({
     selector: 'sb-cart',
@@ -22,6 +23,12 @@ export class CartsComponent implements OnInit {
             this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
         });
     }
+
+    orderForm = new FormGroup({
+        name: new FormControl(''),
+        email: new FormControl(''),
+        specs: new FormControl(''),
+    });
 
     private getDismissReason(reason: any): string {
         if (reason === ModalDismissReasons.ESC) {
@@ -63,5 +70,8 @@ export class CartsComponent implements OnInit {
         this.cart = this.cartService.getCart()
     }
 
+    confirmOrder() {
+        this.cartService.sendOrder(this.orderForm.get("name").value, this.orderForm.get("email").value, this.orderForm.get("specs").value).subscribe(res => console.log(res));
+    }
 
 }
