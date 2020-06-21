@@ -3,7 +3,7 @@
     <KE-image-slider></KE-image-slider>
     <KE-home></KE-home>
 
-    <ngb-carousel #carousel [interval]="500" [pauseOnHover]="true">
+    <ngb-carousel #carousel [interval]="1000" [pauseOnHover]="true">
         <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel"> -->
         <!-- <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -65,34 +65,37 @@
             />
             <div class="card-img-overlay" style="margin: auto;">
                 <img
-                src="assets/images/incense holder/Metal Incense Holder/IMG_20191010_141943.jpg"
-                class="card-img-top"
-                alt="..."
-                style="width: 210px; height: 210px; margin: 40px 0px 10px 85px;"
-            />
-            <img
-                src="assets/images/incense holder/Metal Incense Holder/WMIH-35A.jpg"
-                class="card-img-top"
-                alt="..."
-                style="width: 210px; height: 210px; margin: 40px 0px 10px 40px;"
-            />
-            <img
-                src="assets/images/incense holder/Metal Incense Holder/WMIH-35Ca.jpg"
-                class="card-img-top"
-                alt="..."
-                style="width: 210px; height: 210px; margin: 40px 0px 10px 40px;"
-            />
-            <img
-                src="assets/images/incense holder/Metal Incense Holder/AIH-1010.JPG"
-                class="card-img-top"
-                alt="..."
-                style="width: 210px; height: 210px; margin: 40px 0px 10px 40px;"
-            />
+                    src="assets/images/incense holder/Metal Incense Holder/IMG_20191010_141943.jpg"
+                    class="card-img-top"
+                    alt="..."
+                    style="width: 210px; height: 210px; margin: 40px 0px 10px 85px;"
+                />
+                <img
+                    src="assets/images/incense holder/Metal Incense Holder/WMIH-35A.jpg"
+                    class="card-img-top"
+                    alt="..."
+                    style="width: 210px; height: 210px; margin: 40px 0px 10px 40px;"
+                />
+                <img
+                    src="assets/images/incense holder/Metal Incense Holder/WMIH-35Ca.jpg"
+                    class="card-img-top"
+                    alt="..."
+                    style="width: 210px; height: 210px; margin: 40px 0px 10px 40px;"
+                />
+                <img
+                    src="assets/images/incense holder/Metal Incense Holder/AIH-1010.JPG"
+                    class="card-img-top"
+                    alt="..."
+                    style="width: 210px; height: 210px; margin: 40px 0px 10px 40px;"
+                />
 
-            <span class="overlay-text">Buy elegantly crafted metal handicrafts </span>
-            <a routerLink="/products" class="btn btn--outline" style="margin: 20px 0px 10px 507px;"
-                >SHOP NOW</a
-            >
+                <span class="overlay-text">Buy elegantly crafted metal handicrafts </span>
+                <a
+                    routerLink="/products"
+                    class="btn btn--outline"
+                    style="margin: 20px 0px 10px 507px;"
+                    >SHOP NOW</a
+                >
             </div>
             <!-- </div> -->
         </ng-template>
@@ -108,5 +111,14 @@
         </a> -->
         <!-- </div> -->
     </ngb-carousel>
+    <div class="cookie-container" [ngClass]="{'active':isActive}" style="z-index: 99999;">
+        <p>
+            We use cookie in this website to give you the best experience. Kindly agree.
+        </p>
+        <button class="cookie-btn" (click)="cookieAccept()">
+            I,agree
+        </button>
+    </div>
+
 </sb-layout-dashboard>
 <!--  -->

@@ -1,23 +1,14 @@
 <sb-layout-dashboard>
+    <div class="search">
+        <form class="form-inline my-2 my-lg-0" style="margin-left:30em; margin-bottom: -3em;">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn--outline " type="submit">Search</button>
+        </form>
+       </div>
+
     <div class="container">
-<<<<<<< HEAD
-
-        <ul ngbNav #nav="ngbNav" class="nav-tabs nav nav-pills nav-fill" style="margin-bottom: 3em; " keyboard="changeWithArrows">
-            <li ngbNavItem *ngFor="let x of productTypesChild">
-                <a ngbNavLink>{{x.title}}</a>
-                <ng-template ngbNavContent>
-
-                    <div class="row text-center">
-                        <div *ngFor="let product of products" class="text-center">
-                            <!-- {{product.productType}},{{x.parentProductType}},{{product.productType==x.parentProductType}} -->
-                            <sb-product-view *ngIf="product.productType==x.parentProductType"
-                                (onAddToCart)="addToCart(product)" [productId]="product.id"
-                                [imageSource]="product.imageSrc" [description]="product.details+' -KE- '+('000' + product.id).slice(-3)"
-                                [isAddedToCart]="product.isAddedToCart" [title]="product.title">
-                            </sb-product-view>
-=======
         <div *ngIf="!showAllProducts">
-            <ul ngbNav #nav="ngbNav" class="nav-tabs nav nav-pills nav-fill" style="margin-bottom: 3em;"
+            <ul ngbNav #nav="ngbNav" class="nav-tabs nav nav-pills nav-fill" style="margin-bottom: 3em; margin-top: 2em;"
                 keyboard="changeWithArrows">
                 <li ngbNavItem *ngFor="let x of productTypesChild">
                     <a ngbNavLink>{{x.title}}</a>
@@ -33,7 +24,6 @@
                                     [isAddedToCart]="product.isAddedToCart" [title]="product.title">
                                 </sb-product-view>
                             </div>
->>>>>>> 16819169ea0906626543993fcfec084cb2cd3f48
                         </div>
 
                     </ng-template>
@@ -53,18 +43,3 @@
         </div>
     </div>
 </sb-layout-dashboard>
-<style>
-  .nav-pills > li > a,.nav-pills > li > a > .nav-link{
-    background-color: #caf3e8;
-    color: #13b396;
-
-  }.nav-pills > li >  a:hover,.nav-pills > li > a.active , .nav-pills > li > a.active > .nav-link{
-    background-color: #13b396;
-    color: #ffffff;
-    
-}
-/* .nav-link {
-    color:#ffffff;
-} */
-
-</style>
