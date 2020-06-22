@@ -1,8 +1,9 @@
 <sb-layout-dashboard>
     <div class="search">
-        <form class="form-inline my-2 my-lg-0" style="margin-left:30em; margin-bottom: -3em;">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn--outline " type="submit">Search</button>
+        <form [formGroup]="searchForm" class="form-inline my-2 my-lg-0" style="margin-left:30em; margin-bottom: -3em;">
+            <input formControlName="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button *ngIf="!isSearching" class="btn btn--outline " (click)="search()">Search</button>
+            <button *ngIf="isSearching" class="btn btn--outline " (click)="refreshContent()">Reset</button>
         </form>
        </div>
 
