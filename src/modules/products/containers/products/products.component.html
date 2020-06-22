@@ -34,7 +34,7 @@
             <div [ngbNavOutlet]="nav"></div>
         </div>
         <div *ngIf="showAllProducts" class="row">
-            <div *ngFor="let product of products" class="text-center col">
+            <div *ngFor="let product of products" class="text-center col-3">
                 <sb-product-view (onAddToCart)="addToCart(product)"
                     [productId]="product.id" [imageSource]="product.imageSrc"
                     [description]="product.details+' -KE- '+('000' + product.id).slice(-3)"
