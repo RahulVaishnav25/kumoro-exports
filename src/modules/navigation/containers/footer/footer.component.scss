@@ -222,3 +222,38 @@ footer{
     }
  
 }
+
+
+.cookie-container{
+    position: fixed;
+    bottom: -100;
+    left: 0;
+    right: 0;
+    background: #146e5d;
+    color: #fff;
+    padding: 15px 32px;
+    transition:400ms;
+    box-shadow: 0 -2px 16px rgba(24, 133, 113, 0.455);
+  
+  }
+  
+  .cookie-container.active {
+    bottom: 0;
+  }
+  
+  .cookie-container a {
+    color: #fff;
+  }
+  
+  .cookie-btn {
+    background: #ffffff;
+    border: 0;
+    color: #13b396;
+    padding: 8px 15px;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+  
+  }

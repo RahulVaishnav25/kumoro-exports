@@ -9,19 +9,11 @@ import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/n
 })
 export class DashboardComponent implements OnInit {
     constructor() {}
-isActive:boolean=false;
+
     ngOnInit() {
-        setTimeout(() => {
-            if (!localStorage.getItem('cookieBannerDisplayed'))
-            // document.querySelector('cookie-container').classList.add('active');
-            this.isActive=true;
-        }, 2000);
+       
     }
     
 
-    cookieAccept(){
-        // document.querySelector('cookie-container').classList.remove('active');
-        this.isActive=false;
-        localStorage.setItem('cookieBannerDisplayed', 'true');
-    }
+   
 }

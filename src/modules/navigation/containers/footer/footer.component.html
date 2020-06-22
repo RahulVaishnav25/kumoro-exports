@@ -57,5 +57,19 @@
 					<!-- <a href="#"><i class="fa fa-youtube"></i></a> -->
 				</div>
 			</div>
+
+			
+
+
+			<div class="cookie-container" [ngClass]="{'active':isActive}" style="z-index: 99999;">
+				<p>
+					We use cookies in this website to give you the best experience. Kindly agree.
+				</p>
+				<button class="cookie-btn" (click)="cookieAccept()">
+					I,agree
+				</button>
+			</div>
+
+
         </footer>
        
