@@ -9,6 +9,7 @@ import { ParentProducts } from '@common/models';
     styleUrls: ['top-nav.component.scss'],
 })
 export class TopNavComponent implements OnInit {
+    isCollapsed: boolean = true;
     constructor(private navigationService: NavigationService, private cartService: CartService) { }
     menuStructure: {
         parentProducts: ParentProducts[];

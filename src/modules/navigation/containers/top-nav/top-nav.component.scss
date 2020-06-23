@@ -1,2 +1,20 @@
 @import 'styles/variables.scss';
 
+.navbar,.dropdown-menu{
+    background: #13b396;
+}
+
+ul li a {
+    display: block;
+    padding: 16.5px 25px 16.5px 25px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+ul li a:hover {
+    background: #0e8570;
+}
+
+.navbar-brand{
+    font-family:'Marcellus SC';
+}
