@@ -1,27 +1,27 @@
 @import 'styles/variables.scss';
-* {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-        -ms-box-sizing: border-box;
-            box-sizing: border-box;
-  }
+// * {
+//     -webkit-box-sizing: border-box;
+//        -moz-box-sizing: border-box;
+//         -ms-box-sizing: border-box;
+//             box-sizing: border-box;
+//   }
 
-  .footer-company-about{
-    line-height: 20px;
-    color:  #13b396;
-    font:normal 15px 'Nunito', sans-serif ;
-    margin: 0;
-}
- .footer-company-about span{
-  display: block;
-  color:  #13b396;
-  font:bold 18px 'Nunito', sans-serif ;
-  margin-bottom: 20px;
-}
+//   .footer-company-about{
+//     line-height: 20px;
+//     color:  #13b396;
+//     font:normal 15px 'Nunito', sans-serif ;
+//     margin: 0;
+// }
+//  .footer-company-about span{
+//   display: block;
+//   color:  #13b396;
+//   font:bold 18px 'Nunito', sans-serif ;
+//   margin-bottom: 20px;
+// }
    
-  body {
-    background: #333;
-  }
+//   body {
+//     background: #333;
+//   }
   .btn {
     cursor: pointer;
     display: inline-block;
@@ -31,8 +31,9 @@
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: bold;
-    margin-bottom: .75em;
-    margin-left: 5em;
+    margin-bottom: -2em;
+    margin-top: -11em;
+    // margin-left: 41.5em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
     border-radius: 0;
   }
@@ -40,6 +41,7 @@
   .btn--outline{
     border: 3px solid #13b396;
     color: #13b396;
+    
   }
   .btn--outline:hover{
     background: #13b396;
@@ -47,45 +49,83 @@
   }
     
    
-  .imagex {
-    border: 3px solid #13b396;  
-    float: left;
-    height: 210px;
-    width: 210px;
-    margin: 20px;
-    overflow: hidden;
+//   .imagex {
+//     border: 3px solid #13b396;  
+//     float: left;
+//     height: 210px;
+//     width: 210px;
+//     margin: 20px;
+//     overflow: hidden;
     
-    -webkit-box-shadow: 5px 5px 5px  rgb(182, 189, 189);
-            box-shadow: 5px 5px 5px rgb(182, 189, 189);  
-  }
-  .shrink img {
-    height: 300px;
-    width: 300px;
+//     -webkit-box-shadow: 5px 5px 5px  rgb(182, 189, 189);
+//             box-shadow: 5px 5px 5px rgb(182, 189, 189);  
+//   }
+//   .shrink img {
+//     height: 300px;
+//     width: 300px;
    
-    -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-            transition: all 1s ease;
-  }
+//     -webkit-transition: all 1s ease;
+//        -moz-transition: all 1s ease;
+//          -o-transition: all 1s ease;
+//         -ms-transition: all 1s ease;
+//             transition: all 1s ease;
+//   }
    
-  .shrink img:hover {
-    width: 200px;
-    height: 200px;
-  }
+//   .shrink img:hover {
+//     width: 200px;
+//     height: 200px;
+//   }
    
-  .shrink img {
-    height: 300px;
-    width: 300px;
+//   .shrink img {
+//     height: 300px;
+//     width: 300px;
    
-    -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-            transition: all 1s ease;
-  }
+//     -webkit-transition: all 1s ease;
+//        -moz-transition: all 1s ease;
+//          -o-transition: all 1s ease;
+//         -ms-transition: all 1s ease;
+//             transition: all 1s ease;
+//   }
    
-  .shrink img:hover {
-    width: 200px;
-    height: 200px;
-  }
+//   .shrink img:hover {
+//     width: 200px;
+//     height: 200px;
+//   }
+
+
+
+img {
+  border:4px solid #13b396;
+  border-radius: 25%;
+}
+.row {
+  margin: 40px 0px;
+}
+
+.column {
+  float: left;
+  width: 29.9%;
+  padding: 5px;
+  
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.noMarginPadding {
+  padding: 0;
+  margin: 0;
+}
+.col {
+  margin-top: 5em;
+}
+.title {
+  color:  #0f826d;
+  font:bold 16px 'Marcellus';
+  padding: 20px;
+  background-color: #c3e9e3;
+}

@@ -1,7 +1,7 @@
 @import 'styles/variables.scss';
 
 .overlay-text {
-    font: bold 16px 'Nunito', sans-serif;
+    font: bold 18px 'Sriracha', cursive;
     color: #fff;
 }
 
@@ -18,7 +18,7 @@ img {
 
 .background-custom {
     background-image: url('assets/images/background.png');
-    height: 100%;
+    height: 101%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,8 +31,9 @@ img {
 
 .btn {
     cursor: pointer;
+    margin-top: 1em;
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 0.4em 1.2em;
     text-transform: uppercase;
     letter-spacing: 1px;
