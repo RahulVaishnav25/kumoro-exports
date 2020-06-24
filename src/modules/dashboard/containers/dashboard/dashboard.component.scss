@@ -1,11 +1,11 @@
 @import 'styles/variables.scss';
-.colp{
-  border: solid 3px black;
-  background-color: red;
+.colp {
+    border: solid 3px black;
+    background-color: red;
 }
 
-.justify-content-end{
-  margin-top:100px; 
+.justify-content-end {
+    margin-top: 100px;
 }
 
 .background-custom {
@@ -17,12 +17,11 @@
     background-size: cover;
 }
 
-
 .btn {
     cursor: pointer;
     display: inline-block;
     font-size: 0.8rem;
-    padding: .4em 1.20em;
+    padding: 0.4em 1.2em;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;
@@ -31,20 +30,18 @@
     // margin-left: .75em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
     border-radius: 0;
-  }
-  
-  .btn--outline{
+}
+
+.btn--outline {
     border: 3px solid #fff;
     color: #fff;
-  }
-  .btn--outline:hover{
+}
+.btn--outline:hover {
     background: #fff;
     color: #13b396;
-  }
-  .overlay-text {
+}
+.overlay-text {
     // margin: 20px 0px 10px 420px;
-    font: bold 18px 'Nunito', sans-serif ;
+    font: bold 18px 'Nunito', sans-serif;
     color: #fff;
-
-
 }
