@@ -5,13 +5,17 @@ export interface Product {
     details: string;
     isAddedToCart: boolean;
     productType: ProductsTypes;
-    isChild: boolean;
-    parentProductType: ProductsTypes;
+    // isChild: boolean;
+    // parentProductType: ProductsTypes;
 }
 
 export interface ParentProducts {
-    title: string;
-    parentProductType: ProductsTypes;
+    pageProductType: ProductsTypes;
+    pageTitle: string;
+    children: Array<{ 
+        childTitle: string;
+        childProducts: Product[]
+     }>;
 }
 
 

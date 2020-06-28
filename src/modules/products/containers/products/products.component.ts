@@ -16,9 +16,9 @@ export class ProductsComponent implements OnInit, OnDestroy {
     products: Product[];
 
     isSearching:boolean=false;
-
+    pageProducts:Parent
     sub: Subscription;
-    productTypesChild: ParentProducts[] = [];
+    // productTypesChild: ParentProducts[] = [];
     constructor(private cartService: CartService, private route: ActivatedRoute) {
         this.sub = this.route.params.subscribe(params => { this.parentProductId = params['id']; this.refreshContent() });
         this.showAllProducts = this.parentProductId ? false : true;
