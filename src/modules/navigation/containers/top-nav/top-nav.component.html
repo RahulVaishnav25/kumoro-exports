@@ -27,7 +27,7 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" ngbDropdownMenu aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" style="padding: 8px 25px;" *ngFor="let parentProduct of parentProducts"
-                        routerLink="/products/{{parentProduct.parentProductType}}">{{parentProduct.title}}</a>
+                        routerLink="/products/{{parentProduct.pageProductType}}">{{parentProduct.pageTitle }}</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="/products">See all products</a>
                 </div>

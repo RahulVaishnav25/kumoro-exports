@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Product, Cart, CartItem, ProductsTypes, ParentProducts } from '@common/models';
 import { Observable, of, BehaviorSubject } from 'rxjs';
-import { PRODUCTS, PARENTPRODUCTSTYPES, CHILDPRODUCTSTYPES } from './mock-products';
+import { PRODUCTS } from './mock-products';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable({
@@ -10,30 +10,44 @@ import { HttpClient } from '@angular/common/http';
 export class CartService {
     constructor(private http: HttpClient) { }
 
-    getProducts(): Product[] {
+    getProductsPages(): ParentProducts[] {
         PRODUCTS.forEach(f => {
-            f.isAddedToCart = this.isProductInCart(f);
+            f.children.forEach(a => {
+                a.childProducts.forEach(b => {
+                    b.isAddedToCart = this.isProductInCart(b);
+                })
+            })
         });
         return PRODUCTS;
     }
 
-    getProductsUnderParent(parentProductId: number): Product[] {
-        PRODUCTS.forEach(f => {
-            f.isAddedToCart = this.isProductInCart(f);
-        });
-        return PRODUCTS.filter(f => f.parentProductType == parentProductId);
-    }
-
-    getProductTypesUnderParent(parentProductId: number): ProductsTypes[] {
-        let productTypes: ProductsTypes[] = [];
-        PRODUCTS.forEach(f => {
-            f.isAddedToCart = this.isProductInCart(f);
-            if (f.parentProductType == parentProductId) {
-                if (productTypes.indexOf(f.productType) === -1) productTypes.push(f.productType)
+    getProductsPage(prodType: ProductsTypes): ParentProducts {
+        var ret = null;
+        this.getProductsPages().forEach(f => {
+            if (f.pageProductType == prodType) {
+                ret = f;
             }
         });
-        return productTypes;
+        return ret;
     }
+
+    // getProductsUnderParent(parentProductId: number): Product[] {
+    //     PRODUCTS.forEach(f => {
+    //         f.isAddedToCart = this.isProductInCart(f);
+    //     });
+    //     return PRODUCTS.filter(f => f.parentProductType == parentProductId);
+    // }
+
+    // getProductTypesUnderParent(parentProductId: number): ProductsTypes[] {
+    //     let productTypes: ProductsTypes[] = [];
+    //     PRODUCTS.forEach(f => {
+    //         f.isAddedToCart = this.isProductInCart(f);
+    //         if (f.parentProductType == parentProductId) {
+    //             if (productTypes.indexOf(f.productType) === -1) productTypes.push(f.productType)
+    //         }
+    //     });
+    //     return productTypes;
+    // }
 
 
 
@@ -48,9 +62,9 @@ export class CartService {
         return retval
     }
 
-    getProduct(id: number): Product {
-        return this.getProducts().filter(x => x.id.valueOf() === id)[0];
-    }
+    // getProduct(id: number): Product {
+    //     return this.getProducts().filter(x => x.id.valueOf() === id)[0];
+    // }
 
     getCart(): Cart {
         let cartjs: Cart = JSON.parse(localStorage.getItem('cart') || "{}");
@@ -108,30 +122,32 @@ export class CartService {
         return tmparr;
     }
 
-    exgetParentProductTypes(): ProductsTypes[] {
-        let prods = this.getProducts();
-        let arr: ProductsTypes[] = [];
-        prods.forEach(f => { if (arr.indexOf(f.parentProductType) === -1) arr.push(f.parentProductType) })
-        return arr;
-    }
+    // exgetParentProductTypes(): ProductsTypes[] {
+    //     let prods = this.getProducts();
+    //     let arr: ProductsTypes[] = [];
+    //     prods.forEach(f => { if (arr.indexOf(f.parentProductType) === -1) arr.push(f.parentProductType) })
+    //     return arr;
+    // }
 
-    getParentProductTypes(): ParentProducts[] {
-        return PARENTPRODUCTSTYPES;
-    }
+    // getParentProductTypes(): ParentProducts[] {
+    //     return PARENTPRODUCTSTYPES;
+    // }
 
-    getChildProductTypeTitle(productType: number): ParentProducts {
-        let str: ParentProducts;
-        CHILDPRODUCTSTYPES.forEach(f => {
-            if (f.parentProductType == productType)
-                str = f;
-        })
-        return str ? str : null;
-    }
+    // getChildProductTypeTitle(productType: number): ParentProducts {
+    //     let str: ParentProducts;
+    //     CHILDPRODUCTSTYPES.forEach(f => {
+    //         if (f.parentProductType == productType)
+    //             str = f;
+    //     })
+    //     return str ? str : null;
+    // }
 
     sendOrder(name, email, specs): Observable<Object> {
-        return this.http.post("http://127.0.0.1:5000/mail", { "name": name, "email": email, "specs": specs, "order": this.getCart().cartItem.map(v => {
-            return "Item ID: KE" + ('000' + v.product.id).slice(-3) + ", Qty:" + v.qty
-         }) }, { responseType: 'text' })
+        return this.http.post("http://127.0.0.1:5000/mail", {
+            "name": name, "email": email, "specs": specs, "order": this.getCart().cartItem.map(v => {
+                return "Item ID: KE" + ('000' + v.product.id).slice(-3) + ", Qty:" + v.qty
+            })
+        }, { responseType: 'text' })
 
     }
 }

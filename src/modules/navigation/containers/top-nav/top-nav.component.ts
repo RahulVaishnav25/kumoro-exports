@@ -19,7 +19,8 @@ export class TopNavComponent implements OnInit {
     parentProducts: ParentProducts[] = [];
 
     ngOnInit() {
-        this.parentProducts = this.cartService.getParentProductTypes();
+        this.parentProducts = this.cartService.getProductsPages();
+        
 
 
     }
