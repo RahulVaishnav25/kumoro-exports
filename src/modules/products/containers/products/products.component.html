@@ -3,7 +3,7 @@
     <div class="container">
         <!-- <div class="row align-items-center"> -->
         <div class="d-flex justify-content-center">
-            <div class="search">
+            <div class="search" >
                 <form [formGroup]="searchForm" class="form-inline my-2 my-lg-0">
                     <input formControlName="search" class="form-control mr-sm-2" type="search" placeholder="Search"
                         aria-label="Search">
@@ -14,31 +14,34 @@
 
         </div>
         <div *ngIf="!showAllProducts">
+            
             <ul ngbNav #nav="ngbNav" class="nav-tabs nav nav-pills nav-fill"
                 style="margin-bottom: 3em; margin-top: 2em;" keyboard="changeWithArrows">
-                <li ngbNavItem *ngFor="let x of this.pageProducts.children">
-                    <a ngbNavLink>{{x.childTitle}}</a>
+                <li  ngbNavItem *ngFor="let x of this.pageProducts.children">
+                    <a  ngbNavLink  >{{x.childTitle}}</a>
                     <ng-template ngbNavContent>
-
+                        
                         <div class="row text-center">
-                            <div *ngFor="let product of x.childProducts" class="text-center">
+                            <div *ngFor="let product of x.childProducts" class="text-center ">
                                 <!-- {{product.productType}},{{x.parentProductType}},{{product.productType==x.parentProductType}} -->
                                 <sb-product-view (onAddToCart)="addToCart(product)" [productId]="product.id"
-                                    [imageSource]="product.imageSrc"
-                                    [description]="product.details+': KE-'+('000' + product.id).slice(-3)"
-                                    [isAddedToCart]="product.isAddedToCart" [title]="product.title">
-                                </sb-product-view>
-                            </div>
+                                [imageSource]="product.imageSrc"
+                                [description]="product.details+': KE-'+('000' + product.id).slice(-3)"
+                                [isAddedToCart]="product.isAddedToCart" [title]="product.title">
+                            </sb-product-view>
                         </div>
-
-                    </ng-template>
-                </li>
-
-            </ul>
+                    </div>
+                    
+                </ng-template>
+            </li>
+            
+        </ul>
+                        
+        
             <div [ngbNavOutlet]="nav"></div>
         </div>
         <div *ngIf="showAllProducts" class="row">
-            <div *ngFor="let product of getAllProducts()" class="text-center col-lg-4 col-sm">
+            <div *ngFor="let product of getAllProducts()" class="text-center col-lg-4 col-sm ">
                 <sb-product-view (onAddToCart)="addToCart(product)" [productId]="product.id"
                     [imageSource]="product.imageSrc"
                     [description]="product.details+' -KE- '+('000' + product.id).slice(-3)"

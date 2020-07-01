@@ -1,7 +1,7 @@
 @import 'styles/variables.scss';
 .nav-pills > li > a,.nav-pills > li > a > .nav-link{
     background-color: #caf3e8;
-    color: #13b396;
+    color: #0f937b;
 
   }.nav-pills > li >  a:hover,.nav-pills > li > a.active , .nav-pills > li > a.active > .nav-link{
     background-color: #13b396;
@@ -19,4 +19,7 @@
 .btn--outline:hover{
   background: #13b396;
   color: white;
+}
+.search {
+  margin-top: 4em;
 }

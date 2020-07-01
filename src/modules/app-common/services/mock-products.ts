@@ -581,7 +581,7 @@ export var PRODUCTS: ParentProducts[] = [
                 childProducts: [
                     {
                         id: 62,
-                        title: ' Oil Burner',
+                        title: 'Soft Stone Oil Burner',
                         details: 'Soft Stone Oil Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/BS-O1.JPG',
@@ -589,7 +589,7 @@ export var PRODUCTS: ParentProducts[] = [
                     },
                     {
                         id: 63,
-                        title: ' Oil Burner',
+                        title: 'Soft Stone Oil Burner',
                         details: 'Soft Stone Oil Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/BS-OB-02.JPG',
@@ -597,7 +597,7 @@ export var PRODUCTS: ParentProducts[] = [
                     },
                     {
                         id: 64,
-                        title: ' Oil Burner',
+                        title: 'Soft Stone Oil Burner',
                         details: 'Soft Stone Oil Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/BS-OB45.JPG',
@@ -606,7 +606,7 @@ export var PRODUCTS: ParentProducts[] = [
 
                     {
                         id: 65,
-                        title: ' Oil Burner',
+                        title: 'Soft Stone Oil Burner',
                         details: 'Soft Stone Oil Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/BS-OB50.JPG',
@@ -665,7 +665,7 @@ export var PRODUCTS: ParentProducts[] = [
                 childProducts: [
                     {
                         id: 71,
-                        title: ' Resin Burner',
+                        title: 'Brass Resin Burner',
                         details: 'Brass Resin Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/1114.jpg',
@@ -673,7 +673,7 @@ export var PRODUCTS: ParentProducts[] = [
                     },
                     {
                         id: 72,
-                        title: ' Resin Burner',
+                        title: 'Brass Resin Burner',
                         details: 'Brass Resin Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-03 Blue.jpg',
@@ -681,7 +681,7 @@ export var PRODUCTS: ParentProducts[] = [
                     },
                     {
                         id: 73,
-                        title: ' Resin Burner',
+                        title: 'Brass Resin Burner',
                         details: 'Brass Resin Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-03G.jpg',
@@ -689,7 +689,7 @@ export var PRODUCTS: ParentProducts[] = [
                     },
                     {
                         id: 74,
-                        title: ' Resin Burner',
+                        title: 'Brass Resin Burner',
                         details: 'Brass Resin Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-03R.jpg',
@@ -697,7 +697,7 @@ export var PRODUCTS: ParentProducts[] = [
                     },
                     {
                         id: 75,
-                        title: ' Resin Burner',
+                        title: 'Brass Resin Burner',
                         details: 'Brass Resin Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-03T.jpg',
@@ -705,7 +705,7 @@ export var PRODUCTS: ParentProducts[] = [
                     },
                     {
                         id: 76,
-                        title: ' Resin Burner',
+                        title: 'Brass Resin Burner',
                         details: 'Brass Resin Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-101-Pentagram  Carved Charcoal Burner.JPG',
@@ -713,7 +713,7 @@ export var PRODUCTS: ParentProducts[] = [
                     },
                     {
                         id: 77,
-                        title: ' Resin Burner',
+                        title: 'Brass Resin Burner',
                         details: 'Brass Resin Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-102Triple Moon Carved Charcoal Burner.JPG',
@@ -721,7 +721,7 @@ export var PRODUCTS: ParentProducts[] = [
                     },
                     {
                         id: 78,
-                        title: ' Resin Burner',
+                        title: 'Brass Resin Burner',
                         details: 'Brass Resin Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB03B.jpg',
@@ -734,7 +734,7 @@ export var PRODUCTS: ParentProducts[] = [
                 childProducts: [
                     {
                         id: 79,
-                        title: ' Resin Burner',
+                        title: ' Wooden Resin Burner',
                         details: 'Wooden Resin Burner',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/1114.jpg',
@@ -798,6 +798,431 @@ export var PRODUCTS: ParentProducts[] = [
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Tarot Box/Tarot Box.jpg',
                         productType: ProductsTypes.TarotBox,
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        pageTitle: 'Cussion Covers',
+        pageProductType: ProductsTypes.CussionCovers,
+        children: [
+            {
+                childTitle: 'Cussion Covers',
+                childProducts: [
+
+                    {
+                        id: 86,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0007.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 87,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0013.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 88,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0014.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 89,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0020.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 90,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0021.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 91,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0022.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 92,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0025.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 93,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0026.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 94,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0027.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 95,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0029.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 96,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0030.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 97,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0031.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 98,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0032.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 99,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0033.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 100,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0034.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 101,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0036.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 102,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0039.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 103,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0046.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 104,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0047.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 105,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0048.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 106,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0049.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 107,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0050.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 108,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0051.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 109,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0052.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                    {
+                        id: 110,
+                        title: 'Cussion Covers',
+                        details: 'Cussion Covers',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cussion Covers/IMG-20200629-WA0053.jpg',
+                        productType: ProductsTypes.CussionCovers,
+                    },
+                   
+                ]
+            }
+        ]
+    },
+    {
+        pageTitle: 'Bolster Cover',
+        pageProductType: ProductsTypes.BolstersCovers,
+        children: [
+            {
+                childTitle: 'Bolster Cover',
+                childProducts: [
+
+                    {
+                        id: 111,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0009.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 112,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0010.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 113,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0011.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 114,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0012.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 115,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0015.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 116,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0016.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 117,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0019.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 118,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0023.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 119,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0024.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 120,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0028.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 121,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0035.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 122,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0037.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 123,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0038.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 124,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0042.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                    {
+                        id: 125,
+                        title: 'Bolster Cover',
+                        details: 'Bolster Cover',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0044.jpg',
+                        productType: ProductsTypes.BolstersCovers,
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        pageTitle: 'Rugs',
+        pageProductType: ProductsTypes.Rugs,
+        children: [
+            {
+                childTitle: 'Rugs',
+                childProducts: [
+
+                    {
+                        id: 126,
+                        title: 'Rugs',
+                        details: 'Rugs',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Rugs/IMG-20200629-WA0017.jpg',
+                        productType: ProductsTypes.Rugs,
+                    },
+                    {
+                        id: 127,
+                        title: 'Rugs',
+                        details: 'Rugs',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Rugs/IMG-20200629-WA0041.jpg',
+                        productType: ProductsTypes.Rugs,
+                    },
+                    {
+                        id: 128,
+                        title: 'Rugs',
+                        details: 'Rugs',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Rugs/IMG-20200629-WA0043.jpg',
+                        productType: ProductsTypes.Rugs,
+                    },
+                    {
+                        id: 129,
+                        title: 'Rugs',
+                        details: 'Rugs',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Rugs/IMG-20200629-WA0045.jpg',
+                        productType: ProductsTypes.Rugs,
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        pageTitle: 'Door Mat',
+        pageProductType: ProductsTypes.DoorMat,
+        children: [
+            {
+                childTitle: 'Door Mat',
+                childProducts: [
+
+                    {
+                        id: 130,
+                        title: 'Door Mat',
+                        details: 'Door Mat',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Door Mat/IMG-20200629-WA0008.jpg',
+                        productType: ProductsTypes.DoorMat,
+                    },
+                     {
+                        id: 131,
+                        title: 'Door Mat',
+                        details: 'Door Mat',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Door Mat/IMG-20200629-WA0018.jpg',
+                        productType: ProductsTypes.DoorMat,
+                    },
+                    {
+                        id: 132,
+                        title: 'Door Mat',
+                        details: 'Door Mat',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Door Mat/IMG-20200629-WA0040.jpg',
+                        productType: ProductsTypes.DoorMat,
                     },
                 ]
             }

@@ -38,5 +38,9 @@ export enum ProductsTypes {
     BrassResinBurner,
     WoodenResinBurner,
     TarotBox,
+    CussionCovers,
+    BolstersCovers,
+    Rugs,
+    DoorMat,
     
 }
