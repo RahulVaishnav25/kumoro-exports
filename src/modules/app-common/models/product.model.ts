@@ -42,5 +42,6 @@ export enum ProductsTypes {
     BolstersCovers,
     Rugs,
     DoorMat,
+    SingingBowl,
     
 }

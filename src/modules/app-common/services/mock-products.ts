@@ -1227,6 +1227,90 @@ export var PRODUCTS: ParentProducts[] = [
                 ]
             }
         ]
+    },
+    {
+        pageTitle: 'Singing Bowl',
+        pageProductType: ProductsTypes.SingingBowl,
+        children: [
+            {
+                childTitle: 'Singing Bowl',
+                childProducts: [
+
+                    {
+                        id: 133,
+                        title: 'Singing Bowl',
+                        details: 'Singing Bowl',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-03.53.58.jpg',
+                        productType: ProductsTypes.SingingBowl,
+                    },
+                    {
+                        id: 134,
+                        title: 'Singing Bowl',
+                        details: 'Singing Bowl',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.01.23.png',
+                        productType: ProductsTypes.SingingBowl,
+                    },
+                    {
+                        id: 135,
+                        title: 'Singing Bowl',
+                        details: 'Singing Bowl',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.02.51.jpg',
+                        productType: ProductsTypes.SingingBowl,
+                    },
+                    {
+                        id: 136,
+                        title: 'Singing Bowl',
+                        details: 'Singing Bowl',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.03.31.jpg',
+                        productType: ProductsTypes.SingingBowl,
+                    },
+                    {
+                        id: 137,
+                        title: 'Singing Bowl',
+                        details: 'Singing Bowl',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.04.59.jpg',
+                        productType: ProductsTypes.SingingBowl,
+                    },
+                    {
+                        id: 138,
+                        title: 'Singing Bowl',
+                        details: 'Singing Bowl',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.05.27.jpg',
+                        productType: ProductsTypes.SingingBowl,
+                    },
+                    {
+                        id: 139,
+                        title: 'Singing Bowl',
+                        details: 'Singing Bowl',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.05.53.jpg',
+                        productType: ProductsTypes.SingingBowl,
+                    },
+                    {
+                        id: 140,
+                        title: 'Singing Bowl',
+                        details: 'Singing Bowl',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.06.15.jpg',
+                        productType: ProductsTypes.SingingBowl,
+                    },
+                    {
+                        id: 141,
+                        title: 'Singing Bowl',
+                        details: 'Singing Bowl',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.06.36.jpg',
+                        productType: ProductsTypes.SingingBowl,
+                    },
+                ]
+            }
+        ]
     }
 ]
 
