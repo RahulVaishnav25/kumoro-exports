@@ -567,6 +567,30 @@ export var PRODUCTS: ParentProducts[] = [
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WH-220A.JPG',
                         productType: ProductsTypes.WoodenIncenseHolder,
                     },
+                    {
+                        id: 18,
+                        title: ' Wooden Incense Stand',
+                        details: 'Wooden Incense Stand: WIS-',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/incense holder/Wooden Incense Holder/wooden holder.jpg',
+                        productType: ProductsTypes.WoodenIncenseHolder,
+                    },
+                    {
+                        id: 19,
+                        title: ' Wooden Incense Stand',
+                        details: 'Wooden Incense Stand: WIS-',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Wooden Incense Holder Plain in  Shesham Polished.jpg',
+                        productType: ProductsTypes.WoodenIncenseHolder,
+                    },
+                    {
+                        id: 20,
+                        title: ' Wooden Incense Stand',
+                        details: 'Wooden Incense Stand: WIS-',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Wooden Incense Holder Plain in Natural finish.jpg',
+                        productType: ProductsTypes.WoodenIncenseHolder,
+                    },
                     
 
                 ]
