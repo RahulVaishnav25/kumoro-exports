@@ -2,7 +2,9 @@
 
 .card  {
   margin-top:4em;
-  height: 15em;
+  height: 18em;
+  width: 15em;
+  margin-left: 4em;
 
 }
 
@@ -10,14 +12,16 @@ img {
     border: 2px black solid;
     opacity: 1;
     display: block;
-    width: 160px;
+    width: 100%;
     //   // width: 200px;
-    height: 159px;
+    height: 200px;
     transition: 0.5s ease;
     backface-visibility: hidden;
+    // align-self: center;
 }
 .card-text{
-  font-size: small;
+  font-weight: bold;
+  color:#147b68;
   
 }
 

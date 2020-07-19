@@ -42,7 +42,7 @@
 <sb-layout-dashboard>
     <div class="container ">
         <div class="row text-center" *ngIf="cart">
-            <div *ngFor="let item of cart.cartItem" class="col-2 text-center">
+            <div *ngFor="let item of cart.cartItem" class="text-center col-lg-4 col-sm-4">
                 <sb-product-view-cart [imageSource]="item.product.imageSrc" [description]="item.product.details"
                     [title]="item.product.title" (onQtyInc)="qtyInc(item)" (onQtyDec)="qtyDec(item)"
                     (onRemoveFromCart)="removeFromCart(item)" [qty]="item.qty">
@@ -50,10 +50,12 @@
             </div>
 
         </div>
-        <div class="row">
-            <button type="button" class="btn btn--outline" (click)="open(content)" >
+        <div class="row ">
+            <div class="text-center col-lg-12 col-sm-4"> 
+            <button type="button" class="btn btn--outline " (click)="open(content)" >
                 Confirm Order
             </button>
+        </div>
 
             <ng-template #content let-modal>
                 <div class="modal-header" >
@@ -88,7 +90,7 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn--outlinez" data-dismiss="modal" (click)="confirmOrder()" >
+                    <button type="button" class="btn btn--outlinez" data-dismiss="modal" (click)="confirmOrder(modal)" >
                         Confirm Order
                     </button>
                     <button type="button" class="btn btn--outlinez" data-dismiss="modal" aria-label="Close" (click)="modal.dismiss('Cross click')" >Cancel</button>
@@ -102,6 +104,3 @@
 
 
 
-<!-- <script>
-    $('#content').modal('hide');
-</script> -->

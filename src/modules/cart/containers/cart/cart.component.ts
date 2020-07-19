@@ -70,8 +70,15 @@ export class CartsComponent implements OnInit {
         this.cart = this.cartService.getCart()
     }
 
-    confirmOrder() {
-        this.cartService.sendOrder(this.orderForm.get("name").value, this.orderForm.get("email").value, this.orderForm.get("specs").value).subscribe(res => console.log(res));
+    confirmOrder(modal) {
+        this.cartService.sendOrder(this.orderForm.get("name").value,
+         this.orderForm.get("email").value, 
+         this.orderForm.get("specs").value).subscribe(res => {
+           if(res=="Sent"){ 
+                alert('Order Confirmed');
+                modal.dismiss('Cross click')
+        }
+         });
     }
 
 }

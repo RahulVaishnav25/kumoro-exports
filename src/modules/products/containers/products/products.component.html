@@ -19,7 +19,7 @@
                     <a ngbNavLink>{{x.childTitle}}</a>
                     <ng-template ngbNavContent>
                         <div class="row text-center">
-                            <div *ngFor="let product of x.childProducts" class="text-center ">
+                            <div *ngFor="let product of x.childProducts" class="text-center col-lg-4 col-sm  ">
                                 <sb-product-view (onAddToCart)="addToCart(product)" [productId]="product.id"
                                     [imageSource]="product.imageSrc"
                                     [description]="product.details+'-'+('000' + product.id).slice(-3)"
