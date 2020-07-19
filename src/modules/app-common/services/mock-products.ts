@@ -12,7 +12,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Resin BackFlow Fountain',
-                        details: 'Resin BackFlow Fountain: RBF-',
+                        details: 'Resin BackFlow Fountain: RBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Resin Fountain/71UgC3RX5JL._SL1500_.jpg',
                         productType: ProductsTypes.ResinFountain,
@@ -20,7 +20,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: 'Resin BackFlow Fountain',
-                        details: 'Resin BackFlow Fountain: RBF-',
+                        details: 'Resin BackFlow Fountain: RBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Resin Fountain/71vTrBF1l1L._SL1258_.jpg',
                         productType: ProductsTypes.ResinFountain,
@@ -28,7 +28,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: 'Resin BackFlow Fountain',
-                        details: 'Resin BackFlow Fountain: RBF-',
+                        details: 'Resin BackFlow Fountain: RBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Resin Fountain/DSC06386.JPG',
                         productType: ProductsTypes.ResinFountain,
@@ -36,7 +36,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: 'Resin BackFlow Fountain',
-                        details: 'Resin BackFlow Fountain: RBF-',
+                        details: 'Resin BackFlow Fountain: RBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Resin Fountain/IMG-20180705-WA0008.jpg',
                         productType: ProductsTypes.ResinFountain,
@@ -44,7 +44,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 5,
                         title: 'Resin BackFlow Fountain',
-                        details: 'Resin BackFlow Fountain: RBF-',
+                        details: 'Resin BackFlow Fountain: RBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Resin Fountain/IMG-20180705-WA0019.jpg',
                         productType: ProductsTypes.ResinFountain,
@@ -52,7 +52,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 6,
                         title: 'Resin BackFlow Fountain',
-                        details: 'Resin BackFlow Fountain: RBF-',
+                        details: 'Resin BackFlow Fountain: RBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Resin Fountain/IMG-20180705-WA0022.jpg',
                         productType: ProductsTypes.ResinFountain,
@@ -60,7 +60,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 7,
                         title: 'Resin BackFlow Fountain',
-                        details: 'Resin BackFlow Fountain: RBF-',
+                        details: 'Resin BackFlow Fountain: RBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Resin Fountain/IMG-20180705-WA0025.jpg',
                         productType: ProductsTypes.ResinFountain,
@@ -68,7 +68,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 8,
                         title: 'Resin BackFlow Fountain',
-                        details: 'Resin BackFlow Fountain: RBF-',
+                        details: 'Resin BackFlow Fountain: RBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Resin Fountain/IMG-20180705-WA0027.jpg',
                         productType: ProductsTypes.ResinFountain,
@@ -81,7 +81,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Ceramic BackFlow Fountain',
-                        details: 'Ceramic BackFlow Fountain: CBF-',
+                        details: 'Ceramic BackFlow Fountain: CBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Ceramic Fountain/IMG-20170907-WA0018 .jpg',
                         productType: ProductsTypes.CeramicFountain,
@@ -89,7 +89,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: 'Ceramic BackFlow Fountain',
-                        details: 'Ceramic BackFlow Fountain: CBF-',
+                        details: 'Ceramic BackFlow Fountain: CBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Ceramic Fountain/PicsArt_06-14-03.25.56.jpg',
                         productType: ProductsTypes.CeramicFountain,
@@ -97,7 +97,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: 'Ceramic BackFlow Fountain',
-                        details: 'Ceramic BackFlow Fountain: CBF-',
+                        details: 'Ceramic BackFlow Fountain: CBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Ceramic Fountain/PicsArt_06-14-03.46.12.jpg',
                         productType: ProductsTypes.CeramicFountain,
@@ -105,7 +105,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: 'Ceramic BackFlow Fountain',
-                        details: 'Ceramic BackFlow Fountain: CBF-',
+                        details: 'Ceramic BackFlow Fountain: CBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Ceramic Fountain/PicsArt_06-14-04.14.39.jpg',
                         productType: ProductsTypes.CeramicFountain,
@@ -113,7 +113,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 5,
                         title: ' Ceramic BackFlow Fountain',
-                        details: 'Ceramic BackFlow Fountain: CBF-',
+                        details: 'Ceramic BackFlow Fountain: CBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Ceramic Fountain/PicsArt_06-14-05.00.19.jpg',
                         productType: ProductsTypes.CeramicFountain,
@@ -121,7 +121,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 6,
                         title: 'Ceramic BackFlow Fountain',
-                        details: 'Ceramic BackFlow Fountain: CBF-',
+                        details: 'Ceramic BackFlow Fountain: CBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Ceramic Fountain/PicsArt_06-14-05.28.57.jpg',
                         productType: ProductsTypes.CeramicFountain,
@@ -129,7 +129,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 7,
                         title: 'Ceramic BackFlow Fountain',
-                        details: 'Ceramic BackFlow Fountain: CBF-',
+                        details: 'Ceramic BackFlow Fountain: CBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Ceramic Fountain/PicsArt_06-14-06.25.24.jpg',
                         productType: ProductsTypes.CeramicFountain,
@@ -137,7 +137,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 8,
                         title: 'Ceramic BackFlow Fountain',
-                        details: 'Ceramic BackFlow Fountain: CBF-',
+                        details: 'Ceramic BackFlow Fountain: CBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Ceramic Fountain/PicsArt_06-14-06.51.36.jpg',
                         productType: ProductsTypes.CeramicFountain,
@@ -145,7 +145,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 9,
                         title: 'Ceramic BackFlow Fountain',
-                        details: 'Ceramic BackFlow Fountain: CBF-',
+                        details: 'Ceramic BackFlow Fountain: CBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Ceramic Fountain/IMG_20200614_180748.jpg',
                         productType: ProductsTypes.CeramicFountain,
@@ -153,7 +153,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 10,
                         title: 'Ceramic BackFlow Fountain',
-                        details: 'Ceramic BackFlow Fountain: CBF-',
+                        details: 'Ceramic BackFlow Fountain: CBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Ceramic Fountain/PicsArt_06-14-08.44.10.jpg',
                         productType: ProductsTypes.CeramicFountain,
@@ -161,7 +161,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 11,
                         title: 'Ceramic BackFlow Fountain',
-                        details: 'Ceramic BackFlow Fountain: CBF-',
+                        details: 'Ceramic BackFlow Fountain: CBF',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/BackFlow Fountain/Ceramic Fountain/PicsArt_06-14-09.52.51.jpg',
                         productType: ProductsTypes.CeramicFountain,
@@ -182,7 +182,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Cobra Stand',
-                        details: 'Cobra stand: CS-',
+                        details: 'Cobra stand: CS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cobra Stand/Cobra stand 2 Inc.jpg',
                         productType: ProductsTypes.CobraStand,
@@ -202,7 +202,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Copper Bottles',
-                        details: 'Copper WaterBottles: CWB-',
+                        details: 'Copper WaterBottles: CWB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Copper Bottles/BS-CV-04- Diammond .png',
                         productType: ProductsTypes.CopperBottle,
@@ -210,7 +210,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: 'Copper Bottles',
-                        details: 'Copper WaterBottles: CWB-',
+                        details: 'Copper WaterBottles: CWB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Copper Bottles/BS-CV-03 Hammed.png',
                         productType: ProductsTypes.CopperBottle,
@@ -218,7 +218,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: 'Copper Bottles',
-                        details: 'Copper WaterBottles: CWB-',
+                        details: 'Copper WaterBottles: CWB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Copper Bottles/BS-CV-05 printed.png',
                         productType: ProductsTypes.CopperBottle,
@@ -226,7 +226,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: 'Copper Bottles',
-                        details: 'Copper WaterBottles: CWB-',
+                        details: 'Copper WaterBottles: CWB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Copper Bottles/BS-CV-06 Printed.png',
                         productType: ProductsTypes.CopperBottle,
@@ -234,7 +234,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 5,
                         title: 'Copper Bottles',
-                        details: 'Copper WaterBottles: CWB-',
+                        details: 'Copper WaterBottles: CWB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Copper Bottles/BS-CV-07 Printed.png',
                         productType: ProductsTypes.CopperBottle,
@@ -242,7 +242,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 6,
                         title: 'Copper Bottles',
-                        details: 'Copper WaterBottles: CWB-',
+                        details: 'Copper WaterBottles: CWB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Copper Bottles/BS-CV-08 Printed.jpg',
                         productType: ProductsTypes.CopperBottle,
@@ -250,7 +250,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 7,
                         title: 'Copper Bottles',
-                        details: 'Copper WaterBottles: CWB-',
+                        details: 'Copper WaterBottles: CWB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Copper Bottles/BS-CV-09 printed.jpg',
                         productType: ProductsTypes.CopperBottle,
@@ -258,7 +258,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 8,
                         title: 'Copper Bottles',
-                        details: 'Copper WaterBottles: CWB-',
+                        details: 'Copper WaterBottles: CWB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Copper Bottles/BS-CV-10 Printed.jpg',
                         productType: ProductsTypes.CopperBottle,
@@ -266,7 +266,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 9,
                         title: 'Copper Bottles',
-                        details: 'Copper WaterBottles: CWB-',
+                        details: 'Copper WaterBottles: CWB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Copper Bottles/BS-CV-11 Printed.jpg',
                         productType: ProductsTypes.CopperBottle,
@@ -286,7 +286,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: ' Brass Incense Stand',
-                        details: 'Brass Incense Stand: BIS-',
+                        details: 'Brass Incense Stand: BIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Brass Incense Holder/Brh-1.JPG',
                         productType: ProductsTypes.BrassIncenseHolder,
@@ -294,7 +294,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: ' Brass Incense Stand',
-                        details: 'Brass Incense Stand: BIS-',
+                        details: 'Brass Incense Stand: BIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Brass Incense Holder/BRH-02.jpg',
                         productType: ProductsTypes.BrassIncenseHolder,
@@ -302,7 +302,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: ' Brass Incense Stand',
-                        details: 'Brass Incense Stand: BIS-',
+                        details: 'Brass Incense Stand: BIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Brass Incense Holder/brh-5.jpg',
                         productType: ProductsTypes.BrassIncenseHolder,
@@ -315,7 +315,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: ' Ceramic Incense Stand',
-                        details: 'Ceramic Incense Stand: CIS-',
+                        details: 'Ceramic Incense Stand: CIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Ceramic Incense Holder/IMG-20200608-WA0029.jpg',
                         productType: ProductsTypes.CeramicIncenseHolder,
@@ -323,7 +323,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: ' Ceramic Incense Stand',
-                        details: 'Ceramic Incense Stand: CIS-',
+                        details: 'Ceramic Incense Stand: CIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Ceramic Incense Holder/IMG-20200608-WA0030.jpg',
                         productType: ProductsTypes.CeramicIncenseHolder,
@@ -331,7 +331,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: ' Ceramic Incense Stand',
-                        details: 'Ceramic Incense Stand: CIS-',
+                        details: 'Ceramic Incense Stand: CIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Ceramic Incense Holder/IMG-20200608-WA0031.jpg',
                         productType: ProductsTypes.CeramicIncenseHolder,
@@ -344,7 +344,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: ' Metal Incense Stand',
-                        details: 'Metal Incense Stand: MIS-',
+                        details: 'Metal Incense Stand: MIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Metal Incense Holder/AIH-1010.JPG',
                         productType: ProductsTypes.MetalIncenseHolder,
@@ -352,7 +352,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: ' Metal Incense Stand',
-                        details: 'Metal Incense Stand: MIS-',
+                        details: 'Metal Incense Stand: MIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Metal Incense Holder/ALH-1009.jpg',
                         productType: ProductsTypes.MetalIncenseHolder,
@@ -360,7 +360,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: ' Metal Incense Stand',
-                        details: 'Metal Incense Stand: MIS-',
+                        details: 'Metal Incense Stand: MIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Metal Incense Holder/ALH-1010.JPG',
                         productType: ProductsTypes.MetalIncenseHolder,
@@ -368,7 +368,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: ' Metal Incense Stand',
-                        details: 'Metal Incense Stand: MIS-',
+                        details: 'Metal Incense Stand: MIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Metal Incense Holder/IMG_20191010_141854.jpg',
                         productType: ProductsTypes.MetalIncenseHolder,
@@ -376,7 +376,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 5,
                         title: ' Metal Incense Stand',
-                        details: 'Metal Incense Stand: MIS-',
+                        details: 'Metal Incense Stand: MIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Metal Incense Holder/IMG_20191010_141943.jpg',
                         productType: ProductsTypes.MetalIncenseHolder,
@@ -384,7 +384,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 6,
                         title: ' Metal Incense Stand',
-                        details: 'Metal Incense Stand: MIS-',
+                        details: 'Metal Incense Stand: MIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Metal Incense Holder/WMIH-35A.jpg',
                         productType: ProductsTypes.MetalIncenseHolder,
@@ -392,7 +392,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 7,
                         title: ' Metal Incense Stand',
-                        details: 'Metal Incense Stand: MIS-',
+                        details: 'Metal Incense Stand: MIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Metal Incense Holder/WMIH-35Ca.jpg',
                         productType: ProductsTypes.MetalIncenseHolder,
@@ -405,7 +405,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: ' PaperMache Incense Stand',
-                        details: 'PaperMache Incense Stand: PMIS-',
+                        details: 'PaperMache Incense Stand: PMIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Paper Mache Incense holder/PMSH-06.jpg',
                         productType: ProductsTypes.PaperMacheIncenseHolder,
@@ -413,7 +413,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: ' PaperMache Incense Stand',
-                        details: 'PaperMache Incense Stand: PMIS-',
+                        details: 'PaperMache Incense Stand: PMIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Paper Mache Incense holder/PMSH-11.JPG',
                         productType: ProductsTypes.PaperMacheIncenseHolder,
@@ -421,7 +421,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: ' PaperMache Incense Stand',
-                        details: 'PaperMache Incense Stand: PMIS-',
+                        details: 'PaperMache Incense Stand: PMIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Paper Mache Incense holder/PMSH-12JPEG.jpg',
                         productType: ProductsTypes.PaperMacheIncenseHolder,
@@ -434,7 +434,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Colour Ins.Holder.JPG',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -442,7 +442,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WCB-01.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -450,7 +450,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WH-227.JPG',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -458,7 +458,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WH-230.JPG',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -466,7 +466,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 5,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WHC-02.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -474,7 +474,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 6,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WHC-05.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -482,7 +482,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 7,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WHC-06.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -490,7 +490,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 8,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Incense Holdr Papdi Wood.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -498,7 +498,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 9,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WIB-502.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -506,7 +506,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 10,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WIB-503.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -514,7 +514,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 11,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WIB-504.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -522,7 +522,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 12,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Wooden  Ins  Holder- WIH- C-03 Red.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -530,7 +530,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 13,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Wooden  Ins  Holder- WIH- C-03 Y.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -538,7 +538,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 14,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Wooden  Ins Boxr- WIB C-01.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -546,7 +546,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 15,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Wooden  Ins Boxr- WIB C-02.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -554,7 +554,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 16,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WH-220.JPG',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -562,7 +562,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 17,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WH-220A.JPG',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -570,7 +570,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 18,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/wooden holder.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -578,7 +578,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 19,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Wooden Incense Holder Plain in  Shesham Polished.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -586,7 +586,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 20,
                         title: ' Wooden Incense Stand',
-                        details: 'Wooden Incense Stand: WIS-',
+                        details: 'Wooden Incense Stand: WIS',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Wooden Incense Holder Plain in Natural finish.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
@@ -610,7 +610,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: ' Brass Oil Burner',
-                        details: 'Brass Oil Burner: BOB-',
+                        details: 'Brass Oil Burner: BOB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Brass Oil Burner/BBA-10.JPG',
                         productType: ProductsTypes.BrassOilBurner,
@@ -623,7 +623,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Soft Stone Oil Burner',
-                        details: 'Soft Stone Oil Burner: SSOB-',
+                        details: 'Soft Stone Oil Burner: SSOB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/BS-O1.JPG',
                         productType: ProductsTypes.SoftStoneOilBurner,
@@ -631,7 +631,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: 'Soft Stone Oil Burner',
-                        details: 'Soft Stone Oil Burner: SSOB-',
+                        details: 'Soft Stone Oil Burner: SSOB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/BS-OB-02.JPG',
                         productType: ProductsTypes.SoftStoneOilBurner,
@@ -639,7 +639,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: 'Soft Stone Oil Burner',
-                        details: 'Soft Stone Oil Burner: SSOB-',
+                        details: 'Soft Stone Oil Burner: SSOB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/BS-OB45.JPG',
                         productType: ProductsTypes.SoftStoneOilBurner,
@@ -648,7 +648,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: 'Soft Stone Oil Burner',
-                        details: 'Soft Stone Oil Burner: SSOB-',
+                        details: 'Soft Stone Oil Burner: SSOB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/BS-OB50.JPG',
                         productType: ProductsTypes.SoftStoneOilBurner,
@@ -656,7 +656,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 5,
                         title: ' Soft Stone Oil Burner',
-                        details: 'Soft Stone Oil Burner: SSOB-',
+                        details: 'Soft Stone Oil Burner: SSOB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/BS-OB51.JPG',
                         productType: ProductsTypes.SoftStoneOilBurner,
@@ -664,7 +664,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 6,
                         title: ' Soft Stone Oil Burner',
-                        details: 'Soft Stone Oil Burner: SSOB-',
+                        details: 'Soft Stone Oil Burner: SSOB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/L-052.jpg',
                         productType: ProductsTypes.SoftStoneOilBurner,
@@ -672,7 +672,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 7,
                         title: ' Soft Stone Oil Burner',
-                        details: 'Soft Stone Oil Burner: SSOB-',
+                        details: 'Soft Stone Oil Burner: SSOB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/L-053-10.jpg',
                         productType: ProductsTypes.SoftStoneOilBurner,
@@ -680,7 +680,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 8,
                         title: ' Soft Stone Oil Burner',
-                        details: 'Soft Stone Oil Burner: SSOB-',
+                        details: 'Soft Stone Oil Burner: SSOB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/L-53-11.jpg',
                         productType: ProductsTypes.SoftStoneOilBurner,
@@ -688,7 +688,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 9,
                         title: ' Soft Stone Oil Burner',
-                        details: 'Soft Stone Oil Burner: SSOB-',
+                        details: 'Soft Stone Oil Burner: SSOB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/oil burner/Soft Stone Oil Burner/L-054-7.jpg',
                         productType: ProductsTypes.SoftStoneOilBurner,
@@ -707,7 +707,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Brass Resin Burner',
-                        details: 'Brass Resin Burner: BRB-',
+                        details: 'Brass Resin Burner: BRB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/1114.jpg',
                         productType: ProductsTypes.BrassResinBurner,
@@ -715,7 +715,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: 'Brass Resin Burner',
-                        details: 'Brass Resin Burner: BRB-',
+                        details: 'Brass Resin Burner: BRB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-03 Blue.jpg',
                         productType: ProductsTypes.BrassResinBurner,
@@ -723,7 +723,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: 'Brass Resin Burner',
-                        details: 'Brass Resin Burner: BRB-',
+                        details: 'Brass Resin Burner: BRB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-03G.jpg',
                         productType: ProductsTypes.BrassResinBurner,
@@ -731,7 +731,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: 'Brass Resin Burner',
-                        details: 'Brass Resin Burner: BRB-',
+                        details: 'Brass Resin Burner: BRB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-03R.jpg',
                         productType: ProductsTypes.BrassResinBurner,
@@ -739,7 +739,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 5,
                         title: 'Brass Resin Burner',
-                        details: 'Brass Resin Burner: BRB-',
+                        details: 'Brass Resin Burner: BRB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-03T.jpg',
                         productType: ProductsTypes.BrassResinBurner,
@@ -747,7 +747,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 6,
                         title: 'Brass Resin Burner',
-                        details: 'Brass Resin Burner: BRB-',
+                        details: 'Brass Resin Burner: BRB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-101-Pentagram  Carved Charcoal Burner.JPG',
                         productType: ProductsTypes.BrassResinBurner,
@@ -755,7 +755,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 7,
                         title: 'Brass Resin Burner',
-                        details: 'Brass Resin Burner: BRB-',
+                        details: 'Brass Resin Burner: BRB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB-102Triple Moon Carved Charcoal Burner.JPG',
                         productType: ProductsTypes.BrassResinBurner,
@@ -763,7 +763,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 8,
                         title: 'Brass Resin Burner',
-                        details: 'Brass Resin Burner: BRB-',
+                        details: 'Brass Resin Burner: BRB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/BRB03B.jpg',
                         productType: ProductsTypes.BrassResinBurner,
@@ -776,7 +776,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: ' Wooden Resin Burner',
-                        details: 'Wooden Resin Burner: WRB-',
+                        details: 'Wooden Resin Burner: WRB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Resin Burner/Brass Resin Burner/1114.jpg',
                         productType: ProductsTypes.WoodenResinBurner,
@@ -795,7 +795,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Tarot Box',
-                        details: 'Tarot Box: TB-',
+                        details: 'Tarot Box: TB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Tarot Box/BOX-03a.JPG',
                         productType: ProductsTypes.TarotBox,
@@ -803,7 +803,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: 'Tarot Box',
-                        details: 'Tarot Box: TB-',
+                        details: 'Tarot Box: TB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Tarot Box/RCI -01.jpg',
                         productType: ProductsTypes.TarotBox,
@@ -811,7 +811,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: 'Tarot Box',
-                        details: 'Tarot Box: TB-',
+                        details: 'Tarot Box: TB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Tarot Box/RCI-02.jpg',
                         productType: ProductsTypes.TarotBox,
@@ -819,7 +819,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: 'Tarot Box',
-                        details: 'Tarot Box: TB-',
+                        details: 'Tarot Box: TB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Tarot Box/RCI-03.jpg',
                         productType: ProductsTypes.TarotBox,
@@ -827,7 +827,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 5,
                         title: 'Tarot Box',
-                        details: 'Tarot Box: TB-',
+                        details: 'Tarot Box: TB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Tarot Box/RCI-04.jpg',
                         productType: ProductsTypes.TarotBox,
@@ -835,7 +835,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 6,
                         title: 'Tarot Box',
-                        details: 'Tarot Box: TB-',
+                        details: 'Tarot Box: TB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Tarot Box/Tarot Box.jpg',
                         productType: ProductsTypes.TarotBox,
@@ -855,7 +855,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0007.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -863,7 +863,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0013.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -871,7 +871,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0014.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -879,7 +879,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0020.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -887,7 +887,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 5,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0021.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -895,7 +895,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 6,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0022.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -903,7 +903,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 7,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0025.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -911,7 +911,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 8,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0026.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -919,7 +919,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 9,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0027.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -927,7 +927,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 10,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0029.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -935,7 +935,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 11,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0030.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -943,7 +943,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 12,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0031.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -951,7 +951,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 13,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0032.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -959,7 +959,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 14,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0033.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -967,7 +967,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 15,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0034.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -975,7 +975,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 16,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0036.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -983,7 +983,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 17,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0039.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -991,7 +991,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 18,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0046.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -999,7 +999,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 19,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0047.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -1007,7 +1007,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 20,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0048.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -1015,7 +1015,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 21,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0049.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -1023,7 +1023,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 22,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0050.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -1031,7 +1031,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 23,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0051.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -1039,7 +1039,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 24,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0052.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -1047,7 +1047,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 25,
                         title: 'Cushion Covers',
-                        details: 'Cushion Covers: CC-',
+                        details: 'Cushion Covers: CC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Cushion Covers/IMG-20200629-WA0053.jpg',
                         productType: ProductsTypes.CushionCovers,
@@ -1068,7 +1068,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0009.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1076,7 +1076,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0010.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1084,7 +1084,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0011.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1092,7 +1092,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0012.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1100,7 +1100,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 5,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0015.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1108,7 +1108,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 6,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0016.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1116,7 +1116,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 7,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0019.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1124,7 +1124,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 8,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0023.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1132,7 +1132,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 9,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0024.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1140,7 +1140,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 10,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0028.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1148,7 +1148,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 11,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0035.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1156,7 +1156,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 12,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0037.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1164,7 +1164,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 13,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0038.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1172,7 +1172,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 14,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0042.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1180,7 +1180,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 15,
                         title: 'Bolster Cover',
-                        details: 'Bolster Cover: BC-',
+                        details: 'Bolster Cover: BC',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Bolsters Cover/IMG-20200629-WA0044.jpg',
                         productType: ProductsTypes.BolstersCovers,
@@ -1200,7 +1200,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Rugs',
-                        details: 'Rugs: R-',
+                        details: 'Rugs: R',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Rugs/IMG-20200629-WA0017.jpg',
                         productType: ProductsTypes.Rugs,
@@ -1208,7 +1208,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: 'Rugs',
-                        details: 'Rugs: R-',
+                        details: 'Rugs: R',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Rugs/IMG-20200629-WA0041.jpg',
                         productType: ProductsTypes.Rugs,
@@ -1216,7 +1216,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: 'Rugs',
-                        details: 'Rugs: R-',
+                        details: 'Rugs: R',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Rugs/IMG-20200629-WA0043.jpg',
                         productType: ProductsTypes.Rugs,
@@ -1224,7 +1224,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: 'Rugs',
-                        details: 'Rugs: R-',
+                        details: 'Rugs: R',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Rugs/IMG-20200629-WA0045.jpg',
                         productType: ProductsTypes.Rugs,
@@ -1244,7 +1244,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Door Mat',
-                        details: 'Door Mat: DM-',
+                        details: 'Door Mat: DM',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Door Mat/IMG-20200629-WA0008.jpg',
                         productType: ProductsTypes.DoorMat,
@@ -1252,7 +1252,7 @@ export var PRODUCTS: ParentProducts[] = [
                      {
                         id: 2,
                         title: 'Door Mat',
-                        details: 'Door Mat: DM-',
+                        details: 'Door Mat: DM',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Door Mat/IMG-20200629-WA0018.jpg',
                         productType: ProductsTypes.DoorMat,
@@ -1260,7 +1260,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: 'Door Mat',
-                        details: 'Door Mat: DM-',
+                        details: 'Door Mat: DM',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Door Mat/IMG-20200629-WA0040.jpg',
                         productType: ProductsTypes.DoorMat,
@@ -1280,7 +1280,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 1,
                         title: 'Singing Bowl',
-                        details: 'Singing Bowl: SB-',
+                        details: 'Singing Bowl: SB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-03.53.58.jpg',
                         productType: ProductsTypes.SingingBowl,
@@ -1288,7 +1288,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 2,
                         title: 'Singing Bowl',
-                        details: 'Singing Bowl: SB-',
+                        details: 'Singing Bowl: SB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.01.23.png',
                         productType: ProductsTypes.SingingBowl,
@@ -1296,7 +1296,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 3,
                         title: 'Singing Bowl',
-                        details: 'Singing Bowl: SB-',
+                        details: 'Singing Bowl: SB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.02.51.jpg',
                         productType: ProductsTypes.SingingBowl,
@@ -1304,7 +1304,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 4,
                         title: 'Singing Bowl',
-                        details: 'Singing Bowl: SB-',
+                        details: 'Singing Bowl: SB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.03.31.jpg',
                         productType: ProductsTypes.SingingBowl,
@@ -1312,7 +1312,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 5,
                         title: 'Singing Bowl',
-                        details: 'Singing Bowl: SB-',
+                        details: 'Singing Bowl: SB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.04.59.jpg',
                         productType: ProductsTypes.SingingBowl,
@@ -1320,7 +1320,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 6,
                         title: 'Singing Bowl',
-                        details: 'Singing Bowl: SB-',
+                        details: 'Singing Bowl: SB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.05.27.jpg',
                         productType: ProductsTypes.SingingBowl,
@@ -1328,7 +1328,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 7,
                         title: 'Singing Bowl',
-                        details: 'Singing Bowl: SB-',
+                        details: 'Singing Bowl: SB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.05.53.jpg',
                         productType: ProductsTypes.SingingBowl,
@@ -1336,7 +1336,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 8,
                         title: 'Singing Bowl',
-                        details: 'Singing Bowl: SB-',
+                        details: 'Singing Bowl: SB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.06.15.jpg',
                         productType: ProductsTypes.SingingBowl,
@@ -1344,7 +1344,7 @@ export var PRODUCTS: ParentProducts[] = [
                     {
                         id: 9,
                         title: 'Singing Bowl',
-                        details: 'Singing Bowl: SB-',
+                        details: 'Singing Bowl: SB',
                         isAddedToCart: false,
                         imageSrc: 'assets/images/Singing Bowl/PicsArt_07-10-04.06.36.jpg',
                         productType: ProductsTypes.SingingBowl,

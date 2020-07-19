@@ -22,7 +22,7 @@
                             <div *ngFor="let product of x.childProducts" class="text-center ">
                                 <sb-product-view (onAddToCart)="addToCart(product)" [productId]="product.id"
                                     [imageSource]="product.imageSrc"
-                                    [description]="product.details+('000' + product.id).slice(-3)"
+                                    [description]="product.details+'-'+('000' + product.id).slice(-3)"
                                     [isAddedToCart]="product.isAddedToCart" [title]="product.title">
                                 </sb-product-view>
                             </div>
@@ -36,7 +36,7 @@
         <div *ngIf="showAllProducts" class="row">
             <div *ngFor="let product of products" class="text-center col-lg-4 col-sm ">
                 <sb-product-view (onAddToCart)="addToCart(product)" [productId]="product.id"
-                    [imageSource]="product.imageSrc" [description]="product.details+('000' + product.id).slice(-3)"
+                    [imageSource]="product.imageSrc" [description]="product.details+'-'+('000' + product.id).slice(-3)"
                     [isAddedToCart]="product.isAddedToCart" [title]="product.title">
                 </sb-product-view>
             </div>
