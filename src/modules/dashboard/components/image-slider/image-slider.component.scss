@@ -11,10 +11,10 @@ img {
     height: 100%;
 }
 
-.colp {
-    // border: solid 2px black;
-    // background-color: red;
-}
+// .colp {
+//     // border: solid 2px black;
+//     // background-color: red;
+// }
 
 .background-custom {
     background-image: url('assets/images/background.png');
@@ -85,13 +85,13 @@ img {
     transition: background 350ms ease;
 }
 /* Front Side Face */
-.FrontSide {
+// .FrontSide {
     // -webkit-transform: translateZ(75%);
     // -moz-transform: translateZ(75%);
     // -o-transform: translateZ(75%);
     // -ms-transform: translateZ(75%);
     // transform: translateZ(75%);
-}
+// }
 .flipbox:hover .FrontSide {
     background: #ffffff;
 }
