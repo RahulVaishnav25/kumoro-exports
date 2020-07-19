@@ -19,8 +19,18 @@
   .btn--outline{
     border: 3px solid #13b396;
     color: #13b396;
+    
   }
   .btn--outline:hover{
+    background: #13b396;
+    color: white;
+  }
+  .btn--outlinez{
+    border: 3px solid #13b396;
+    color: #13b396;
+    margin:2em;
+  }
+  .btn--outlinez:hover{
     background: #13b396;
     color: white;
   }
