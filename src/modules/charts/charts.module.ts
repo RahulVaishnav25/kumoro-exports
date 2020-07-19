@@ -19,7 +19,6 @@ import * as chartsGuards from './guards';
 
 /* Services */
 import * as chartsServices from './services';
-import { GroupService } from '../app-common/services/group.service';
 
 @NgModule({
     imports: [
@@ -30,7 +29,7 @@ import { GroupService } from '../app-common/services/group.service';
         AppCommonModule,
         NavigationModule,
     ],
-    providers: [...chartsServices.services, ...chartsGuards.guards, GroupService],
+    providers: [...chartsServices.services, ...chartsGuards.guards],
     declarations: [...chartsContainers.containers, ...chartsComponents.components],
     exports: [...chartsContainers.containers, ...chartsComponents.components],
 })

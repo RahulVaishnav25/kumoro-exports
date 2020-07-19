@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { UserService } from '../../../app-common/services/user.service';
+
 import { AuthService } from '@modules/app-common/services/auth.service';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
@@ -14,7 +14,7 @@ import { User } from '../../../models/models';
 export class TopNavUserComponent implements OnInit {
     constructor(
         private router: Router,
-        public userService: UserService,
+        // public userService: UserService,
         public authService: AuthService,
         private changeDetectorRef: ChangeDetectorRef
     ) {

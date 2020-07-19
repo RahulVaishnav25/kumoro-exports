@@ -7,11 +7,7 @@ const routes: Routes = [
         pathMatch: 'full',
         redirectTo: '/dashboard',
     },
-    {
-        path: 'events',
-        loadChildren: () =>
-            import('modules/event/event-routing.module').then(m => m.EventRoutingModule),
-    },
+    
     {
         path: 'charts',
         loadChildren: () =>

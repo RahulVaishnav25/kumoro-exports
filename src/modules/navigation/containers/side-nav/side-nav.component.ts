@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, Input, OnDestroy, OnInit } from '@a
 import { SideNavItems, SideNavSection } from '@modules/navigation/models';
 import { NavigationService } from '@modules/navigation/services';
 import { Subscription } from 'rxjs';
-import { UserService } from '../../../app-common/services/user.service';
+
 import { AuthService } from '../../../app-common/services/auth.service';
 import { User } from '../../../models/models';
 
@@ -22,7 +22,7 @@ export class SideNavComponent implements OnInit, OnDestroy {
 
     constructor(
         public navigationService: NavigationService,
-        public userService: UserService,
+        // public userService: UserService,
         public authService: AuthService
     ) {
         this.authService.currentUser.subscribe(x => (this.currentUser = x));

@@ -21,7 +21,6 @@ import * as chartsGuards from './guards';
 
 /* Services */
 // import * as chartsServices from './services';
-import { GroupService } from '../app-common/services/group.service';
 
 @NgModule({
     imports: [

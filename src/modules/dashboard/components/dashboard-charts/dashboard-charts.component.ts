@@ -1,5 +1,4 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { EventService } from '../../../app-common/services/event.service';
 import { Event } from '../../../models/models';
 
 @Component({
@@ -9,15 +8,15 @@ import { Event } from '../../../models/models';
     styleUrls: ['dashboard-charts.component.scss'],
 })
 export class DashboardChartsComponent implements OnInit {
-    constructor(private eventService: EventService) {}
+    constructor() {}
     events: Event[];
     ngOnInit() {
-        this.eventService
-            .getEvents()
-            .toPromise()
-            .then(val => {
-                this.events = val;
-                // console.log(val);
-            });
+        // this.eventService
+        //     .getEvents()
+        //     .toPromise()
+        //     .then(val => {
+        //         this.events = val;
+        //         // console.log(val);
+        //     });
     }
 }

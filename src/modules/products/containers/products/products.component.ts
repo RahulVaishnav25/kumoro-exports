@@ -20,8 +20,14 @@ export class ProductsComponent implements OnInit, OnDestroy {
     sub: Subscription;
     // productTypesChild: ParentProducts[] = [];
     constructor(private cartService: CartService, private route: ActivatedRoute) {
-        this.sub = this.route.params.subscribe(params => { this.parentProductId = params['id']; this.refreshContent() });
+        this.sub = this.route.params.subscribe(params => {
+            this.parentProductId = params['id'];
+            this.refreshContent()
+        });
         this.showAllProducts = this.parentProductId ? false : true;
+        if(this.showAllProducts){
+            this.fillAllProducts();
+        }
     }
 
     searchForm = new FormGroup({
@@ -40,20 +46,19 @@ export class ProductsComponent implements OnInit, OnDestroy {
         this.products = this.products.filter(v => v.title.toLowerCase().indexOf(searchTerm) > -1 || v.details.toLowerCase().indexOf(searchTerm) > -1);
     }
 
-    getAllProducts() {
+    fillAllProducts() {
+        this.isSearching = false;
         let arr = [];
         this.cartService.getProductsPages().forEach(f => {
             f.children.forEach(x => { x.childProducts.forEach(a => { arr.push(a) }) })
         });
-        return arr;
-
-
+        this.products = arr;
     }
 
     refreshContent() {
-        this.isSearching = false;
         // this.productTypesChild = [];
         this.pageProducts = this.cartService.getProductsPage(this.parentProductId);
+
         // this.pageProducts.
         // if (this.parentProductId) {
         //     this.products = this.cartService.getProductsUnderParent(this.parentProductId);

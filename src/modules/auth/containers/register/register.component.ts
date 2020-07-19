@@ -12,7 +12,6 @@ import { Observable } from 'rxjs';
 import { debounceTime, map } from 'rxjs/operators';
 import { User } from '../../../models/models';
 import { Router } from '@angular/router';
-import { UserService } from '../../../app-common/services/user.service';
 
 @Component({
     selector: 'sb-register',
@@ -21,7 +20,7 @@ import { UserService } from '../../../app-common/services/user.service';
     styleUrls: ['register.component.scss'],
 })
 export class RegisterComponent implements OnInit {
-    constructor(private userService: UserService, private router: Router) {}
+    constructor(private router: Router) {}
 
     pwdCheckValidator: ValidatorFn = (control: FormGroup): ValidationErrors | null => {
         const pwd1 = control.get('password');
@@ -31,17 +30,17 @@ export class RegisterComponent implements OnInit {
     };
 
     validateUniqueUserName({ value }: AbstractControl): Observable<ValidationErrors | null> {
-        return this.userService.validateUsername(value).pipe(
-            debounceTime(1000),
-            map((users: User[]) => {
-                if (users.length > 0) {
-                    // console.log('debig 1235', users);
-                    return { isUsernameExists: true };
-                }
-                // console.log('debig 1234');
+        // return this.userService.validateUsername(value).pipe(
+        //     debounceTime(1000),
+        //     map((users: User[]) => {
+        //         if (users.length > 0) {
+        //             // console.log('debig 1235', users);
+        //             return { isUsernameExists: true };
+        //         }
+        //         // console.log('debig 1234');
                 return null;
-            })
-        );
+        //     })
+        // );
     }
     getAllErrors() {
         const result = [];
@@ -72,13 +71,13 @@ export class RegisterComponent implements OnInit {
         { validators: this.pwdCheckValidator }
     );
     submitForm() {
-        this.userService
-            .register(this.registerForm.value)
-            .toPromise()
-            .then(res => {
-                alert('User Registered. Please login now.');
-                this.router.navigate(['auth/login']);
-            });
+        // this.userService
+        //     .register(this.registerForm.value)
+        //     .toPromise()
+        //     .then(res => {
+        //         alert('User Registered. Please login now.');
+        //         this.router.navigate(['auth/login']);
+        //     });
     }
     ngOnInit() {}
 }

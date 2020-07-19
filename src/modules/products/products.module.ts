@@ -19,7 +19,6 @@ import * as chartsGuards from './guards';
 
 /* Services */
 // import * as chartsServices from './services';
-import { GroupService } from '../app-common/services/group.service';
 // import { ProductService } from '@common/services/products.service';
 import { CartService } from '@common/services/cart.service';
 // import { CartService } from '@modules/cart/services';

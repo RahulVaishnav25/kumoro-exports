@@ -31,40 +31,21 @@ export class CartService {
         return ret;
     }
 
-    // getProductsUnderParent(parentProductId: number): Product[] {
-    //     PRODUCTS.forEach(f => {
-    //         f.isAddedToCart = this.isProductInCart(f);
-    //     });
-    //     return PRODUCTS.filter(f => f.parentProductType == parentProductId);
-    // }
-
-    // getProductTypesUnderParent(parentProductId: number): ProductsTypes[] {
-    //     let productTypes: ProductsTypes[] = [];
-    //     PRODUCTS.forEach(f => {
-    //         f.isAddedToCart = this.isProductInCart(f);
-    //         if (f.parentProductType == parentProductId) {
-    //             if (productTypes.indexOf(f.productType) === -1) productTypes.push(f.productType)
-    //         }
-    //     });
-    //     return productTypes;
-    // }
-
-
+    productMatchIdentifier(a, b): boolean {
+        return a.id.valueOf() === b.id.valueOf() && a.productType == b.productType
+    }
 
     isProductInCart(product: Product): boolean {
         let retval = false;
         let cart = this.getCart();
         this.getProductsFromCartItems(cart.cartItem).forEach(f => {
-            if (f.id.valueOf() === product.id.valueOf()) {
+            if (this.productMatchIdentifier(f, product)) {
                 retval = true;
             }
         })
         return retval
     }
 
-    // getProduct(id: number): Product {
-    //     return this.getProducts().filter(x => x.id.valueOf() === id)[0];
-    // }
 
     getCart(): Cart {
         let cartjs: Cart = JSON.parse(localStorage.getItem('cart') || "{}");
@@ -77,20 +58,20 @@ export class CartService {
 
     incQty(item: CartItem) {
         let cart: Cart = this.getCart();
-        let index = cart.cartItem.findIndex(i => i.product.id.valueOf() === item.product.id.valueOf());
+        let index = cart.cartItem.findIndex(i => this.productMatchIdentifier(i.product,item.product));
         cart.cartItem[index].qty += 1;
         this.saveCart(cart);
     }
     decQty(item: CartItem) {
         let cart: Cart = this.getCart();
-        let index = cart.cartItem.findIndex(i => i.product.id.valueOf() === item.product.id.valueOf());
+        let index = cart.cartItem.findIndex(i => this.productMatchIdentifier(i.product, item.product));
         cart.cartItem[index].qty = Math.max(cart.cartItem[index].qty - 1, 1);
         this.saveCart(cart);
     }
 
     deleteItem(item: CartItem) {
         let cart: Cart = this.getCart();
-        let index = cart.cartItem.findIndex(i => i.product.id.valueOf() === item.product.id.valueOf());
+        let index = cart.cartItem.findIndex(i => this.productMatchIdentifier(i.product, item.product));
         cart.cartItem.splice(index, 1);
         this.saveCart(cart);
     }
@@ -122,30 +103,11 @@ export class CartService {
         return tmparr;
     }
 
-    // exgetParentProductTypes(): ProductsTypes[] {
-    //     let prods = this.getProducts();
-    //     let arr: ProductsTypes[] = [];
-    //     prods.forEach(f => { if (arr.indexOf(f.parentProductType) === -1) arr.push(f.parentProductType) })
-    //     return arr;
-    // }
-
-    // getParentProductTypes(): ParentProducts[] {
-    //     return PARENTPRODUCTSTYPES;
-    // }
-
-    // getChildProductTypeTitle(productType: number): ParentProducts {
-    //     let str: ParentProducts;
-    //     CHILDPRODUCTSTYPES.forEach(f => {
-    //         if (f.parentProductType == productType)
-    //             str = f;
-    //     })
-    //     return str ? str : null;
-    // }
 
     sendOrder(name, email, specs): Observable<Object> {
         return this.http.post("http://127.0.0.1:5000/mail", {
             "name": name, "email": email, "specs": specs, "order": this.getCart().cartItem.map(v => {
-                return "Item ID: KE" + (v.product.details+ '000' +  v.product.id).slice(-3) + ", Qty:" + v.qty
+                return "Item ID: KE" + (v.product.details + '000' + v.product.id).slice(-3) + ", Qty:" + v.qty
             })
         }, { responseType: 'text' })
 
