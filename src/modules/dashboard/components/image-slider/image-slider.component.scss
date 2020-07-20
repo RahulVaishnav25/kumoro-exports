@@ -5,11 +5,7 @@
     color: #fff;
 }
 
-.flipbox img,
-img {
-    width: 100%;
-    height: 100%;
-}
+
 
 // .colp {
 //     // border: solid 2px black;
@@ -52,86 +48,44 @@ img {
     color: #13b396;
 }
 
-.flipbox {
-    // width: 210px;
-    // height: 150px;
-    text-align: center;
-    // display: ;
-    position: relative;
-    -webkit-transition: all 350ms ease;
-    -moz-transition: all 350ms ease;
-    -o-transition: all 350ms ease;
-    transition: all 350ms ease;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-/* Front - Back */
-.flipbox .FrontSide,
-.flipbox .BackSide {
-    position: relative;
-    // top:0;
-    width: 100%;
-    height: 100%;
-    background: #ffffff;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #fff;
-    -webkit-transition: background 350ms ease;
-    -moz-transition: background 350ms ease;
-    -o-transition: background 350ms ease;
-    transition: background 350ms ease;
-}
-/* Front Side Face */
-// .FrontSide {
-    // -webkit-transform: translateZ(75%);
-    // -moz-transform: translateZ(75%);
-    // -o-transform: translateZ(75%);
-    // -ms-transform: translateZ(75%);
-    // transform: translateZ(75%);
-// }
-.flipbox:hover .FrontSide {
-    background: #ffffff;
-}
-/* Back Side */
-.flipbox .BackSide {
-    background: #ffffff;
-}
-/* flip to top*/
-.flipTop .BackSide {
-    position: absolute;
-    top: 0;
-    -webkit-transform: rotateX(90deg); //translateZ(75%);
-    -moz-transform: rotateX(90deg); // translateZ(75%);
-    -o-transform: rotateX(90deg); //translateZ(75%);
-    -ms-transform: rotateX(90deg); //translateZ(75%);
-    transform: rotateX(90deg); //translateZ(75%);
-}
-.flipbox.flipTop:hover {
-    -webkit-transform: rotateX(-90deg);
-    -moz-transform: rotateX(-90deg);
-    -o-transform: rotateX(-90deg);
-    -ms-transform: rotateX(-90deg);
-    transform: rotateX(-90deg);
-}
-/* flip to bottom*/
-.flipBottom .BackSide {
-    position: absolute;
-    top: 0;
-    -webkit-transform: rotateX(-90deg); //translateZ(-75%);
-    -moz-transform: rotateX(-90deg); //translateZ(-75%);
-    -o-transform: rotateX(-90deg); //translateZ(-75%);
-    -ms-transform: rotateX(-90deg); //translateZ(-75%);
-    transform: rotateX(-90deg); //translateZ(-75%);
-}
-.flipbox.flipBottom:hover {
-    -webkit-transform: rotateX(90deg);
-    -moz-transform: rotateX(90deg);
-    -o-transform: rotateX(90deg);
-    -ms-transform: rotateX(90deg);
-    transform: rotateX(90deg);
+#stage {
+    margin: 1em auto;
+    width: 190px;
+    height: 190px;
 }
 
+#stage a {
+    position: absolute;
+}
 
+#stage a img {
+    // padding: 10px;
+    border: 1px solid #12967e;
+    background: #fff;
+}
+
+#stage a:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    z-index: 20;
+}
+
+#stage a:nth-of-type(2) {
+    z-index: 10;
+}
+
+#stage a:nth-of-type(n+3) {
+    display: none;
+}
+
+@keyframes fader {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.0;
+    }
+}
