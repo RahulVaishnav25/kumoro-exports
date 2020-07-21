@@ -444,7 +444,7 @@ export var PRODUCTS: ParentProducts[] = [
                         title: ' Wooden Incense Holder',
                         details: 'Wooden Incense Holder: WIH',
                         isAddedToCart: false,
-                        imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WCB-01.jpg',
+                        imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Wooden Incense Holder Plain in Natural finish.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
                     },
                     {
@@ -588,9 +588,41 @@ export var PRODUCTS: ParentProducts[] = [
                         title: ' Wooden Incense Holder',
                         details: 'Wooden Incense Holder: WIH',
                         isAddedToCart: false,
-                        imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Wooden Incense Holder Plain in Natural finish.jpg',
+                        imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WCB-01.jpg',
                         productType: ProductsTypes.WoodenIncenseHolder,
                     },
+                    {
+                        id: 21,
+                        title: ' Wooden Incense Holder',
+                        details: 'Wooden Incense Holder: WIH',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WCB-02.jpg',
+                        productType: ProductsTypes.WoodenIncenseHolder,
+                    },
+                    {
+                        id: 22,
+                        title: ' Wooden Incense Holder',
+                        details: 'Wooden Incense Holder: WIH',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WCB-03.jpg',
+                        productType: ProductsTypes.WoodenIncenseHolder,
+                    },
+                    {
+                        id: 23,
+                        title: ' Wooden Incense Holder',
+                        details: 'Wooden Incense Holder: WIH',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/incense holder/Wooden Incense Holder/WCB-04.jpg',
+                        productType: ProductsTypes.WoodenIncenseHolder,
+                    },
+                    {
+                        id: 24,
+                        title: ' Wooden Incense Holder',
+                        details: 'Wooden Incense Holder: WIH',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/incense holder/Wooden Incense Holder/Wooden Incense Holder Plain in Natural finish.jpg',
+                        productType: ProductsTypes.WoodenIncenseHolder,
+                    }
                     
 
                 ]
