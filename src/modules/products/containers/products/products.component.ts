@@ -38,6 +38,10 @@ export class ProductsComponent implements OnInit, OnDestroy {
         this.sub.unsubscribe();
     }
 
+    scrollWin() {
+        window.scrollBy(0, -80000);
+    }
+
     ngOnInit() { }
 
     search() {

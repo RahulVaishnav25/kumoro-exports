@@ -24,6 +24,11 @@ export class TopNavComponent implements OnInit {
 
 
     }
+    
+ scrollWin() {
+    window.scrollBy(0, 80000);
+}
+
 
     toggleSideNav() {
         this.navigationService.toggleSideNav();
