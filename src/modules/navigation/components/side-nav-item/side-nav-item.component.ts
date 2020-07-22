@@ -25,6 +25,7 @@ export class SideNavItemComponent implements OnInit {
 
     constructor() {}
     toggleSideNav() {
+        alert("togg")
         this.expanded = !this.expanded;
         if (!this.sideNavItem.submenu && this.innerWidth < 991) {
             this.navigationService.toggleSideNav();
