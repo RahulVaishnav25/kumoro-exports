@@ -13,11 +13,11 @@ const routes: Routes = [
     //     loadChildren: () =>
     //         import('modules/charts/charts-routing.module').then(m => m.ChartsRoutingModule),
     // },
-    // {
-    //     path: 'carts',
-    //     loadChildren: () =>
-    //         import('modules/cart/cart-routing.module').then(m => m.CartsRoutingModule),
-    // },
+    {
+        path: 'carts',
+        loadChildren: () =>
+            import('modules/cart/cart-routing.module').then(m => m.CartsRoutingModule),
+    },
     {
         path: 'products',
         loadChildren: () =>
