@@ -1,28 +1,27 @@
 @import 'styles/variables.scss';
 
-.overlay-text {
-    font: bold 18px 'Sriracha', cursive;
-    color: #fff;
+.colp {
+    border: solid 3px black;
+    background-color: red;
 }
 
-
-
-// .colp {
-//     // border: solid 2px black;
-//     // background-color: red;
-// }
+.justify-content-end {
+    margin-top: 100px;
+}
+img{
+    margin: 8px 8px 8px 8px;
+    border:1px solid #13b396;
+    border-radius: 0%;
+    box-shadow:  0px 4px 4px #108e77;
+}
 
 .background-custom {
+    padding: 52px;
     background-image: url('assets/images_opt/background.png');
-    height: 105%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.noMarginPadding {
-    padding: 0;
-    margin: 0;
 }
 
 .btn {
@@ -35,7 +34,7 @@
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: bold;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 4px 4px #146959;
     border-radius: 0;
 }
 
@@ -47,46 +46,11 @@
     background: #fff;
     color: #13b396;
 }
-
-#stage {
-    margin: 1em auto;
-    width: 190px;
-    height: 190px;
+.overlay-text {
+    // margin: 20px 0px 10px 420px;
+    font: bold 18px 'Sriracha', cursive;
+    color: #fff;
 }
 
-#stage a {
-    position: absolute;
-}
 
-#stage a img {
-    // padding: 10px;
-    border: 1px solid #12967e;
-    box-shadow:  0px 4px 4px #12967e;
-    background: #fff;
-}
 
-#stage a:nth-of-type(1) {
-    animation-name: fader;
-    animation-delay: 2s;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    z-index: 20;
-}
-
-#stage a:nth-of-type(2) {
-    z-index: 10;
-}
-
-#stage a:nth-of-type(n+3) {
-    display: none;
-}
-
-@keyframes fader {
-    from {
-        opacity: 1.0;
-    }
-
-    to {
-        opacity: 0.0;
-    }
-}
