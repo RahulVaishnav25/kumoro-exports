@@ -1,9 +1,9 @@
 @import 'styles/variables.scss';
 
-.colp {
-    border: solid 3px black;
-    background-color: red;
-}
+// .colp {
+//     border: solid 3px black;
+//     background-color: red;
+// }
 
 .justify-content-end {
     margin-top: 100px;
@@ -48,9 +48,15 @@ img{
 }
 .overlay-text {
     // margin: 20px 0px 10px 420px;
-    font: bold 18px 'Sriracha', cursive;
-    color: #fff;
+    font: bold 18px 'Neuton', serif;
+    color: rgb(255, 255, 255);
 }
 
+.desc {
+    font: bold 18px 'Neuton', serif;
+    color:  #0f826d;
+    padding: 7px;
+    background-color: #c3e9e3;
+  }
 
 
