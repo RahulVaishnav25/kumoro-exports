@@ -9,7 +9,7 @@
                 <img [src]="imageSource" alt="Avatar" class="img-responsive">
                  <div class="overlay">
                      <h2>{{description}}</h2>
-                     <a *ngIf="isAddedToCart" class="info" onclick="alert('Added to cart')">Already added to Cart</a>
+                     <a *ngIf="isAddedToCart" class="info" onclick="alert('Added to cart')">Added to Cart</a>
                      <a *ngIf="!isAddedToCart" class="info" (click)="addToCart()">Add to Cart</a>
                      <a *ngIf="!isAddedToCart" class="info" (click)="open(content)">View Product</a>
                  </div>
