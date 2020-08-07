@@ -41,8 +41,9 @@
 </sb-layout-dashboard> -->
 <sb-layout-dashboard>
     <div class="container ">
-        <div class="row text-center" *ngIf="cart">
-            <div *ngFor="let item of cart.cartItem" class="text-center col-lg-4 col-sm-4">
+        <p class="text text-center" > For pricing details kindly contact us!</p>
+        <div class="row text-center " style="align-self: center;" *ngIf="cart">
+            <div *ngFor="let item of cart.cartItem" class="text-center col-lg-4 col-sm-6" >
                 <sb-product-view-cart [imageSource]="item.product.imageSrc" [description]="item.product.details"
                     [title]="item.product.title" (onQtyInc)="qtyInc(item)" (onQtyDec)="qtyDec(item)"
                     (onRemoveFromCart)="removeFromCart(item)" [qty]="item.qty">
@@ -52,7 +53,6 @@
         </div>
         <div class="row ">
             <div class="text-center col-lg-12 col-sm-4"> 
-                <p class="text text-center" > For pricing details kindly contact us!</p>
             <button  type="button" [hidden]="cart.cartItem.length<1" class="btn btn--outline " (click)="open(content)"  >
                 Confirm Order
             </button>

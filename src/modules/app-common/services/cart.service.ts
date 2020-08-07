@@ -107,10 +107,12 @@ export class CartService {
     sendOrder(name, email, specs): Observable<Object> {
         let data = {
             "name": name, "email": email, "specs": specs, "order": this.getCart().cartItem.map(v => {
-                return "Item ID:" + ( '000' + v.product.id).slice(-3) + ", Product Detail: " + v.product.details +", Qty:" + v.qty
+                return "Product Detail: " + v.product.details + ", Item ID:" + ( '000' + v.product.id).slice(-3) +", Qty:" + v.qty
             })
         };
-        return this.http.post("http://13.233.104.142:5000/",data , { responseType: 'text' })
+        return this.http.post("http://13.233.89.111:5000/",data , { responseType: 'text' })
 
     }
 }
+
+// 

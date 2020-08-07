@@ -24,8 +24,12 @@
  
   
   .btn--outline{
-    border: 3px solid #13b396;
-    color: #13b396;
+    outline: 3px solid #13b396;
+    outline-offset: -3px;
+    outline-style:outset;
+    color: #148772;
+    font: bold 14px 'Marcellus SC' ;
+    margin: 2em;
     
   }
   .btn--outline:hover{
@@ -33,8 +37,11 @@
     color: white;
   }
   .btn--outlinez{
-    border: 3px solid #13b396;
-    color: #13b396;
+    outline: 3px solid #13b396;
+  outline-offset: -3px;
+  outline-style:outset;
+  color: #13b396;
+  font: bold 14px 'Marcellus SC' ;
     margin:2em;
   }
   .btn--outlinez:hover{

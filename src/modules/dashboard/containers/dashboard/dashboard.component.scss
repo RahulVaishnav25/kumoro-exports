@@ -40,8 +40,11 @@
 }
 
 .btn--outline {
-    border: 3px solid #fff;
+    outline: 3px solid #fff;
+    outline-offset: -3px;
+    outline-style:outset;
     color: #fff;
+    font: bolder 14px 'Marcellus SC' ;
 }
 .btn--outline:hover {
     background: #fff;
