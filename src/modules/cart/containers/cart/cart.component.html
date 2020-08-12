@@ -51,7 +51,7 @@
             </div>
 
         </div>
-        <div class="row ">
+        <div class="row " *ngIf="cart.cartItem">
             <div class="text-center col-lg-12 col-sm-4"> 
             <button  type="button" [hidden]="cart.cartItem.length<1" class="btn btn--outline " (click)="open(content)"  >
                 Confirm Order
