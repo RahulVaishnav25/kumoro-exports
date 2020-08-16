@@ -8,7 +8,7 @@ ng build --prod
 cp .htaccess dist/$PROJECT_FOLDER_NAME /.htaccess
 cd dist/
 zip -r a.zip $PROJECT_FOLDER_NAME/
-curl --insecure -v -k --key $KEY_PATH sftp://ubuntu@$AWS_IP/opt/lampp/htdocs/a.zip -T a.zip
-ssh -i $KEY_PATH ubuntu@$AWS_IP 'cd /opt/lampp/htdocs/;unzip -q -o a.zip;cd kumoro-exports-angular;mv * ../;'
+curl --insecure -v -k --key $KEY_PATH sftp://ubuntu@$AWS_IP/var/www/html/a.zip -T a.zip
+ssh -i $KEY_PATH ubuntu@$AWS_IP 'cd /var/www/html/;unzip -q -o a.zip;cd kumoro-exports-angular;mv * ../;'
 cd ..
-curl --insecure -v -k --key $KEY_PATH sftp://ubuntu@$AWS_IP/opt/lampp/htdocs/.htaccess -T .htaccess
+curl --insecure -v -k --key $KEY_PATH sftp://ubuntu@$AWS_IP/var/www/html/.htaccess -T .htaccess
