@@ -39,7 +39,7 @@ export enum ProductsTypes {
     WoodenResinBurner,
     TarotBox,
     CushionCovers,
-    BolstersCovers,
+    BolsterCovers,
     BedSheets,
     RoundTableCovers,
     PrintedJackets,
