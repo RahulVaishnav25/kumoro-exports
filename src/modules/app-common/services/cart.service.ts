@@ -110,7 +110,7 @@ export class CartService {
                 return "Product Detail: " + v.product.details + ", Item ID:" + ( '000' + v.product.id).slice(-3) +", Qty:" + v.qty
             })
         };
-        return this.http.post("http://13.233.89.111:5000/",data , { responseType: 'text' })
+        return this.http.post("https://kumoroexports.com:5000/",data , { responseType: 'text' })
 
     }
 }
