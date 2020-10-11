@@ -42,11 +42,12 @@ export enum ProductsTypes {
     BolsterCovers,
     BedSheets,
     RoundTableCovers,
-    PrintedJackets,
-    FullSleeveJacket,
-    SleeveLessJacket,
+    // PrintedJackets,
+    // FullSleeveJacket,
+    // SleeveLessJacket,
     Rugs,
     DoorMat,
     SingingBowl,
+    HandmadePaperDiaries,
     
 }
