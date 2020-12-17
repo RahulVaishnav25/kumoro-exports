@@ -1936,6 +1936,51 @@ export var PRODUCTS: ParentProducts[] = [
                 ]
             },
             {
+                childTitle: 'Ceramic Oil Burner',
+                childProducts: [
+                    {
+                        id: 1,
+                        title: ' Ceramic Oil Burner',
+                        details: 'Ceramic Oil Burner: KE-COB',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/oil burner/Ceramic Oil Burner/IMG-20201124-WA0000.jpg',
+                        productType: ProductsTypes.CeramicOilBurner,
+                    },
+                    {
+                        id: 2,
+                        title: ' Ceramic Oil Burner',
+                        details: 'Ceramic Oil Burner: KE-COB',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/oil burner/Ceramic Oil Burner/IMG-20201124-WA0001.jpg',
+                        productType: ProductsTypes.CeramicOilBurner,
+                    },
+                    {
+                        id: 3,
+                        title: ' Ceramic Oil Burner',
+                        details: 'Ceramic Oil Burner: KE-COB',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/oil burner/Ceramic Oil Burner/IMG-20201124-WA0003.jpg',
+                        productType: ProductsTypes.CeramicOilBurner,
+                    },
+                    {
+                        id: 4,
+                        title: ' Ceramic Oil Burner',
+                        details: 'Ceramic Oil Burner: KE-COB',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/oil burner/Ceramic Oil Burner/IMG-20201124-WA0006.jpg',
+                        productType: ProductsTypes.CeramicOilBurner,
+                    },
+                    {
+                        id: 5,
+                        title: ' Ceramic Oil Burner',
+                        details: 'Ceramic Oil Burner: KE-COB',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/oil burner/Ceramic Oil Burner/IMG-20201124-WA0007.jpg',
+                        productType: ProductsTypes.CeramicOilBurner,
+                    },
+                ]
+            },
+            {
                 childTitle: 'Soft Stone Oil Burner',
                 childProducts: [
                     {
@@ -2724,6 +2769,84 @@ export var PRODUCTS: ParentProducts[] = [
                         imageSrc: 'assets/images/Copper Bottles/BS-CV-11 Printed.jpg',
                         productType: ProductsTypes.CopperBottle,
                     },
+                ]
+            }
+        ]
+    },
+
+    {
+        pageTitle: 'Mortar and Pestle',
+        pageProductType: ProductsTypes.MortarAndPestle,
+        children: [
+            {
+                childTitle: 'Mortar and Pestle',
+                childProducts: [
+
+                    {
+                        id: 1,
+                        title: 'Mortar and Pestle',
+                        details: 'Mortar and Pestle: KE-MP',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Mortar and pestle/IMG-20201124-WA0010.jpg',
+                        productType: ProductsTypes.MortarAndPestle,
+                    },
+                    {
+                        id: 2,
+                        title: 'Mortar and Pestle',
+                        details: 'Mortar and Pestle: KE-MP',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Mortar and pestle/IMG-20201124-WA0011.jpg',
+                        productType: ProductsTypes.MortarAndPestle,
+                    },
+                    {
+                        id: 3,
+                        title: 'Mortar and Pestle',
+                        details: 'Mortar and Pestle: KE-MP',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Mortar and pestle/IMG-20201124-WA0012.jpg',
+                        productType: ProductsTypes.MortarAndPestle,
+                    },
+                    {
+                        id: 4,
+                        title: 'Mortar and Pestle',
+                        details: 'Mortar and Pestle: KE-MP',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Mortar and pestle/IMG-20201124-WA0013.jpg',
+                        productType: ProductsTypes.MortarAndPestle,
+                    },
+                    {
+                        id: 5,
+                        title: 'Mortar and Pestle',
+                        details: 'Mortar and Pestle: KE-MP',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Mortar and pestle/IMG-20201124-WA0014.jpg',
+                        productType: ProductsTypes.MortarAndPestle,
+                    },
+                    {
+                        id: 6,
+                        title: 'Mortar and Pestle',
+                        details: 'Mortar and Pestle: KE-MP',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Mortar and pestle/IMG-20201124-WA0015.jpg',
+                        productType: ProductsTypes.MortarAndPestle,
+                    },
+                    {
+                        id: 7,
+                        title: 'Mortar and Pestle',
+                        details: 'Mortar and Pestle: KE-MP',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Mortar and pestle/IMG-20201124-WA0016.jpg',
+                        productType: ProductsTypes.MortarAndPestle,
+                    },
+                    {
+                        id: 8,
+                        title: 'Mortar and Pestle',
+                        details: 'Mortar and Pestle: KE-MP',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Mortar and pestle/IMG-20201124-WA0017.jpg',
+                        productType: ProductsTypes.MortarAndPestle,
+                    },
+                   
                 ]
             }
         ]
