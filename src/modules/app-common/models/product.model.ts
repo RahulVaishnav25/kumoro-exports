@@ -44,6 +44,7 @@ export enum ProductsTypes {
     CushionCovers,
     BolsterCovers,
     BedSheets,
+    DecorItems,
     RoundTableCovers,
     // PrintedJackets,
     // FullSleeveJacket,

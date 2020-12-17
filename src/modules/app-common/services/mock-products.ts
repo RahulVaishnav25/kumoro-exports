@@ -2360,26 +2360,7 @@ export var PRODUCTS: ParentProducts[] = [
             }
         ]
     },
-    {
-        pageTitle: 'Cobra Stand',
-        pageProductType: ProductsTypes.CobraStand,
-        children: [
-            {
-                childTitle: 'Cobra Stand',
-                childProducts: [
-
-                    {
-                        id: 1,
-                        title: 'Cobra Stand',
-                        details: 'Cobra stand: KE-CS',
-                        isAddedToCart: false,
-                        imageSrc: 'assets/images/Cobra Stand/Cobra stand 2 Inc.jpg',
-                        productType: ProductsTypes.CobraStand,
-                    },
-                ]
-            }
-        ]
-    },
+   
     {
         pageTitle: 'Incense Sticks',
         pageProductType: ProductsTypes.IncenseSticks,
@@ -2847,6 +2828,62 @@ export var PRODUCTS: ParentProducts[] = [
                         productType: ProductsTypes.MortarAndPestle,
                     },
                    
+                ]
+            }
+        ]
+    },
+    {
+        pageTitle: 'Decor Items',
+        pageProductType: ProductsTypes.DecorItems,
+        children: [
+            {
+                childTitle: 'Decor Items',
+                childProducts: [
+
+                    {
+                        id: 1,
+                        title: 'Decor Items',
+                        details: 'Decor Items: KE-DI',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Decor Items/WhatsApp Image 2020-12-16 at 10.45.13 AM.jpeg',
+                        productType: ProductsTypes.DecorItems,
+                    },
+                    {
+                        id: 2,
+                        title: 'Decor Items',
+                        details: 'Decor Items: KE-DI',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Decor Items/WhatsApp Image 2020-12-16 at 10.45.12 AM.jpeg',
+                        productType: ProductsTypes.DecorItems,
+                    },
+                    {
+                        id: 3,
+                        title: 'Decor Items',
+                        details: 'Decor Items: KE-DI',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Decor Items/WhatsApp Image 2020-12-16 at 10.45.13 AM (1).jpeg',
+                        productType: ProductsTypes.DecorItems,
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        pageTitle: 'Cobra Stand',
+        pageProductType: ProductsTypes.CobraStand,
+        children: [
+            {
+                childTitle: 'Cobra Stand',
+                childProducts: [
+
+                    {
+                        id: 1,
+                        title: 'Cobra Stand',
+                        details: 'Cobra stand: KE-CS',
+                        isAddedToCart: false,
+                        imageSrc: 'assets/images/Cobra Stand/Cobra stand 2 Inc.jpg',
+                        productType: ProductsTypes.CobraStand,
+                    },
                 ]
             }
         ]
